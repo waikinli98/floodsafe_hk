@@ -1,0 +1,5 @@
+# Never upload local secrets with the source – deploy.sh passes keys to Cloud Run separately
+.env
+node_modules/
+.git/
+*.zip
