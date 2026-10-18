@@ -181,7 +181,7 @@ FloodSafe HK gives people on foot the street-level picture. Neighbours report fl
 
 <p align="center">
   <a href="https://youtu.be/780KkuOWIuU">
-    <img src="https://img.youtube.com/vi/780KkuOWIuU/hqdefault.jpg" width="720" alt="Watch the FloodSafe HK demo on YouTube">
+    <img src="https://img.youtube.com/vi/780KkuOWIuU/maxresdefault.jpg" width="720" alt="Watch the FloodSafe HK demo on YouTube">
   </a>
 </p>
 
