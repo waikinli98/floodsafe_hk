@@ -1,0 +1,2067 @@
+{
+ "geocoderVersion": 2,
+ "geocodedAt": "2026-10-14T16:03:31.543Z",
+ "locations": [
+  {
+   "id": "dsd-b-001",
+   "district": "North",
+   "location": "Ng Tung River near lot no. 3 and no. 5 in D.D. 52, Fu Tei Au, Sheung Shui",
+   "kind": "watercourse",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-002",
+   "district": "North",
+   "location": "Fu Tei Au (Man Kam To Road near lamp post AD6590), Sheung Shui",
+   "kind": "road",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-003",
+   "district": "North",
+   "location": "Ping Yuen River (Ta Kwu Ling Tong Fong near lamp post EB5490)",
+   "kind": "watercourse",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-004",
+   "district": "North",
+   "location": "Security Grille of Channel Outlet near Border Fence Gate no. 64E, Muk Wu",
+   "kind": "watercourse",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-005",
+   "district": "North",
+   "location": "Cross road culvert at Ping Che Road near Baptist Assembly",
+   "kind": "watercourse",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-006",
+   "district": "North",
+   "location": "Ping Kong Road near lamp post GD1138",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-007",
+   "district": "North",
+   "location": "Fan Kam Road near Lin Tong Mei lamp post N8922",
+   "kind": "road",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-008",
+   "district": "North",
+   "location": "Kam Tsin Road near lamp post AD1426",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-009",
+   "district": "North",
+   "location": "Man Kam To Road near Fu Tei Au",
+   "kind": "road",
+   "lat": 22.5183077,
+   "lng": 114.1251707,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Man Kam To Road & Fu Tei Au, North, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-010",
+   "district": "North",
+   "location": "Ping Yuen Road near lamp post CD2034",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-011",
+   "district": "North",
+   "location": "Fan Kam Road near On Po Tsuen lamp post AJ1497",
+   "kind": "road",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-012",
+   "district": "North",
+   "location": "Sheung Shui Hang Tau Village near Village Office",
+   "kind": "road",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-013",
+   "district": "North",
+   "location": "Kong Nga Po Road near lot no. 331 in D.D. 87",
+   "kind": "road",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-014",
+   "district": "North",
+   "location": "Kong Nga Po Road near lamp post VA6349",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-015",
+   "district": "North",
+   "location": "Man Kam To Road near Kong Nga Po Road",
+   "kind": "road",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-016",
+   "district": "North",
+   "location": "Cross road drain at Ho Sheung Heung Road near Ma Tso Lung Road",
+   "kind": "road",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-017",
+   "district": "North",
+   "location": "Lin Ma Hang Road roundabout near Heung Yuen Wai Control Point",
+   "kind": "road",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-018",
+   "district": "North",
+   "location": "Cross road culvert at Ping Che Road near Li Uk",
+   "kind": "watercourse",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-019",
+   "district": "North",
+   "location": "Tsz Tong Tsuen near Sui Wan Road, Fanling",
+   "kind": "road",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-020",
+   "district": "North",
+   "location": "Shung Him Tong Tsuen near No. 20 Shung Him Tong, Fanling",
+   "kind": "road",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-021",
+   "district": "North",
+   "location": "Ng Tung River, Kwan Tei North (near lamp post VD2301)",
+   "kind": "watercourse",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-022",
+   "district": "North",
+   "location": "Tong Kung Leng near Lions Pavilion (near lamp post VD7429)",
+   "kind": "road",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-023",
+   "district": "North",
+   "location": "Junction of San Wan Road, Fanling and Jockey Club Road",
+   "kind": "road",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-024",
+   "district": "North",
+   "location": "Tan Shan River near Tan Chuk Hang Lo Wai",
+   "kind": "watercourse",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-025",
+   "district": "North",
+   "location": "Lam Kam Road near Ping Long Refuse Collection Point",
+   "kind": "road",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-026",
+   "district": "Tai Po",
+   "location": "Junction of Hai Wing Road and Lung Ma Road",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-027",
+   "district": "Tai Po",
+   "location": "Junction of Ting Kok Road and Chim Uk Road",
+   "kind": "road",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-028",
+   "district": "Tai Po",
+   "location": "Parking area at Yue Kok, Tai Po",
+   "kind": "road",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-029",
+   "district": "Tai Po",
+   "location": "Nam Wan Road MTR bridge underpass",
+   "kind": "underpass",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-030",
+   "district": "Tai Po",
+   "location": "Tai Po Road - Tai Po Kau near Tsung Tsai Yuen",
+   "kind": "road",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-031",
+   "district": "Tai Po",
+   "location": "Tai Po Road - Yuen Chau Tsai outside Kwong Fuk Park",
+   "kind": "road",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-032",
+   "district": "Tai Po",
+   "location": "Chung Nga Road near Hong Kong Red Swastika Society Tai Po Secondary School",
+   "kind": "road",
+   "lat": 22.4607089,
+   "lng": 114.1712754,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Chung Nga Road & Hong Kong Red Swastika Society Tai Po Secondary School, Tai Po, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-033",
+   "district": "Tai Po",
+   "location": "Sai Sha Road near Kwun Hang",
+   "kind": "road",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-034",
+   "district": "Tuen Mun",
+   "location": "Siu Lam Tsuen Subway near junction of Tsing Lam Road",
+   "kind": "underpass",
+   "lat": 22.366311,
+   "lng": 114.011316,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Siu Lam Tsuen Subway near junction of Tsing Lam Road, Tuen Mun, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-035",
+   "district": "Tuen Mun",
+   "location": "No. 68-76 Shun Tat Street",
+   "kind": "road",
+   "lat": 22.4246119,
+   "lng": 113.9922118,
+   "precision": "ROOFTOP",
+   "query": "No. 68-76 Shun Tat Street, Tuen Mun, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-036",
+   "district": "Tuen Mun",
+   "location": "Nai Wai Channel near junction of Castle Peak Road - Lam Tei and Wong Kong Wai Road",
+   "kind": "watercourse",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-037",
+   "district": "Tuen Mun",
+   "location": "Leung King Estate near walkpath to Por Lo Shan",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-038",
+   "district": "Tuen Mun",
+   "location": "Channel near lamp post AJ0927 in Castle Peak Village",
+   "kind": "watercourse",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-039",
+   "district": "Tuen Mun",
+   "location": "Hung Lau sitting-out area entrance near lamp post H0276",
+   "kind": "road",
+   "lat": 22.3779917,
+   "lng": 113.9605729,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Hung Lau sitting-out area entrance, Tuen Mun, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-040",
+   "district": "Tuen Mun",
+   "location": "No. 41 Yeung Tsing Road",
+   "kind": "road",
+   "lat": 22.3948656,
+   "lng": 113.9656513,
+   "precision": "RANGE_INTERPOLATED",
+   "query": "No. 41 Yeung Tsing Road, Tuen Mun, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-041",
+   "district": "Yuen Long",
+   "location": "No. 89 Ko Po Tsuen (near lamp post FC0088), Kam Tin",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-042",
+   "district": "Yuen Long",
+   "location": "Tai Kong Po Kong Tai Road near lamp post H2744, Pat Heung",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-043",
+   "district": "Yuen Long",
+   "location": "San Tin - Mai Po near Tam Kon Chau",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-044",
+   "district": "Yuen Long",
+   "location": "San Tin West Watercourse near Sam Po Shue",
+   "kind": "watercourse",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-045",
+   "district": "Yuen Long",
+   "location": "Chau Tau Tsuen Box Culvert Crossing",
+   "kind": "watercourse",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-046",
+   "district": "Yuen Long",
+   "location": "Castle Peak Road - San Tin near San Tin Post Office",
+   "kind": "road",
+   "lat": 22.4988938,
+   "lng": 114.0781262,
+   "precision": "ROOFTOP",
+   "query": "Castle Peak Road - San Tin near San Tin Post Office, Yuen Long, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-047",
+   "district": "Yuen Long",
+   "location": "Junction of Castle Peak Road - San Tin and Shek Wu Wai Road",
+   "kind": "road",
+   "lat": 22.495593,
+   "lng": 114.0689198,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Castle Peak Road - San Tin & Shek Wu Wai Road, Yuen Long, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-048",
+   "district": "Yuen Long",
+   "location": "Box Culvert Crossing near Shek Wu Wai Village",
+   "kind": "watercourse",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-049",
+   "district": "Yuen Long",
+   "location": "Inlet to San Tin Stormwater Pumping Station",
+   "kind": "watercourse",
+   "lat": 22.5021448,
+   "lng": 114.0738881,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Inlet to San Tin Stormwater Pumping Station, Yuen Long, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-050",
+   "district": "Yuen Long",
+   "location": "Ha Wan Tsuen Outfall",
+   "kind": "watercourse",
+   "lat": 22.513298,
+   "lng": 114.073714,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Ha Wan Tsuen Outfall, Yuen Long, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-051",
+   "district": "Yuen Long",
+   "location": "Lok Ma Chau Tsuen Outfall",
+   "kind": "watercourse",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-052",
+   "district": "Yuen Long",
+   "location": "Tseung Kong Wai (near lamp post V6205)",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-053",
+   "district": "Yuen Long",
+   "location": "San Sang Tsuen near lamp post VD2087",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-054",
+   "district": "Yuen Long",
+   "location": "Nim Wan Road near Ap Tsai Hang",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-055",
+   "district": "Yuen Long",
+   "location": "Ho Lik Pui near lamp post VG4082",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-056",
+   "district": "Yuen Long",
+   "location": "Near No. 23 Cheuk Yuen Tsuen",
+   "kind": "road",
+   "lat": 22.476252,
+   "lng": 114.056494,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Near No. 23 Cheuk Yuen Tsuen, Yuen Long, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-057",
+   "district": "Yuen Long",
+   "location": "Kam Tin Road near Shek Kong Barracks",
+   "kind": "road",
+   "lat": 22.440051,
+   "lng": 114.079571,
+   "precision": "ROOFTOP",
+   "query": "Kam Tin Road near Shek Kong Barracks, Yuen Long, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-058",
+   "district": "Yuen Long",
+   "location": "Shan Ha Tsuen Sitting-out Area",
+   "kind": "road",
+   "lat": 22.4329638,
+   "lng": 114.0169153,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Shan Ha Tsuen Sitting-out Area, Yuen Long, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-059",
+   "district": "Yuen Long",
+   "location": "Lin Fa Tei near lamp post U8422",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-060",
+   "district": "Yuen Long",
+   "location": "Shung Ching San Tsuen near lamp post VA6813",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-061",
+   "district": "Yuen Long",
+   "location": "Shui Chiu San Tsuen near lamp post VG4023",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-062",
+   "district": "Yuen Long",
+   "location": "Junction of Kam Tin Road and Fan Kam Road",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-063",
+   "district": "Yuen Long",
+   "location": "Near No. 28 Wo Sang Wai",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-064",
+   "district": "Yuen Long",
+   "location": "Near No. B6A, Wing Kei Tsuen",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-065",
+   "district": "Yuen Long",
+   "location": "Kam Shui Road North near lamp post AD4942",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-066",
+   "district": "Kowloon City",
+   "location": "Waterloo Road near Vista Panorama (near lamp post AA4865)",
+   "kind": "road",
+   "lat": 22.344018,
+   "lng": 114.1786995,
+   "precision": "ROOFTOP",
+   "query": "Vista Panorama, Kowloon City, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-067",
+   "district": "Kowloon City",
+   "location": "Kowloon Tong MTR Station near Suffolk Road",
+   "kind": "road",
+   "lat": 22.336918,
+   "lng": 114.175852,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Kowloon Tong MTR Station near Suffolk Road, Kowloon City, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-068",
+   "district": "Kowloon City",
+   "location": "No. 2 Cornwall Street near Ede Road Garden",
+   "kind": "road",
+   "lat": 22.3403881,
+   "lng": 114.1773416,
+   "precision": "ROOFTOP",
+   "query": "No. 2 Cornwall Street near Ede Road Garden, Kowloon City, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-069",
+   "district": "Kowloon City",
+   "location": "Junction of Sung Wong Toi Road and To Kwa Wan Road",
+   "kind": "road",
+   "lat": 22.322126,
+   "lng": 114.1944889,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Sung Wong Toi Road & To Kwa Wan Road, Kowloon City, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-070",
+   "district": "Kowloon City",
+   "location": "Junction of Chi Man Street and Princess Margaret Road",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-071",
+   "district": "Kowloon City",
+   "location": "Chung Hau Street outside Ho Man Tin MTR Station Exit B2",
+   "kind": "road",
+   "lat": 22.3093594,
+   "lng": 114.1827294,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Chung Hau Street outside Ho Man Tin MTR Station Exit B2, Kowloon City, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-072",
+   "district": "Kowloon City",
+   "location": "Junction of Ma Tau Wai Road and Kiang Hsi Street",
+   "kind": "road",
+   "lat": 22.314341,
+   "lng": 114.187353,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Ma Tau Wai Road & Kiang Hsi Street, Kowloon City, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-073",
+   "district": "Kowloon City",
+   "location": "Lung Cheung Road near Lung Ting Lane",
+   "kind": "road",
+   "lat": 22.3443496,
+   "lng": 114.1790314,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Lung Cheung Road & Lung Ting Lane, Kowloon City, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-074",
+   "district": "Kowloon City",
+   "location": "Chatham Road North near Bulkeley Street",
+   "kind": "road",
+   "lat": 22.3084416,
+   "lng": 114.183137,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Chatham Road North & Bulkeley Street, Kowloon City, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-075",
+   "district": "Kowloon City",
+   "location": "Chatham Road North near Ho Man Tin MTR Station Exit B1",
+   "kind": "road",
+   "lat": 22.3093594,
+   "lng": 114.1827294,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Ho Man Tin MTR Station Exit B1, Kowloon City, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-076",
+   "district": "Kowloon City",
+   "location": "Wa Fung Street near Chatham Road North",
+   "kind": "road",
+   "lat": 22.3076601,
+   "lng": 114.1820576,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Wa Fung Street & Chatham Road North, Kowloon City, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-077",
+   "district": "Kowloon City",
+   "location": "Winslow Street near Chatham Road North",
+   "kind": "road",
+   "lat": 22.3073114,
+   "lng": 114.1820315,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Winslow Street & Chatham Road North, Kowloon City, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-078",
+   "district": "Kwun Tong",
+   "location": "Ngau Tau Kok Road (between Ngau Tau Kok MTR Station Exit B1 and Leun On Street)",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-079",
+   "district": "Kwun Tong",
+   "location": "Kwun Tong Road near Hong Ning Road",
+   "kind": "road",
+   "lat": 22.3134928,
+   "lng": 114.2233235,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Kwun Tong Road & Hong Ning Road, Kwun Tong, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-080",
+   "district": "Kwun Tong",
+   "location": "Kwong Tin Estate Bus Terminus, Lam Tin",
+   "kind": "road",
+   "lat": 22.302862,
+   "lng": 114.2407722,
+   "precision": "ROOFTOP",
+   "query": "Kwong Tin Estate Bus Terminus, Lam Tin, Kwun Tong, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-081",
+   "district": "Kwun Tong",
+   "location": "Kwun Tong Road Underpass at junction of Kwun Tong Road and Hoi Yuen Road",
+   "kind": "underpass",
+   "lat": 22.3112787,
+   "lng": 114.2232275,
+   "precision": "ROOFTOP",
+   "query": "Kwun Tong Road Underpass at junction of Kwun Tong Road and Hoi Yuen Road, Kwun Tong, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-082",
+   "district": "Kwun Tong",
+   "location": "Fuk Tong Road near Tsui Ping Road, Kwun Tong",
+   "kind": "road",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-083",
+   "district": "Kwun Tong",
+   "location": "Drainage intake near Bauhinia Trail, Pik Wan Road, Nam Tin",
+   "kind": "watercourse",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-084",
+   "district": "Kwun Tong",
+   "location": "Tsui Ping Road (between Kai Lim Road and Kwun Tong Road)",
+   "kind": "road",
+   "lat": 22.3114207,
+   "lng": 114.2291962,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Tsui Ping Road & Kai Lim Road, Kwun Tong, Hong Kong | Tsui Ping Road & Kwun Tong Road, Kwun Tong, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-085",
+   "district": "Sham Shui Po",
+   "location": "Adjacent to the access ramp of Former North Kowloon Magistracy",
+   "kind": "road",
+   "lat": 22.335516,
+   "lng": 114.162749,
+   "precision": "ROOFTOP",
+   "query": "Adjacent to the access ramp of Former North Kowloon Magistracy, Sham Shui Po, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-086",
+   "district": "Sham Shui Po",
+   "location": "Junction of Un Chau Street and Hing Wah Street",
+   "kind": "road",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-087",
+   "district": "Sham Shui Po",
+   "location": "Junction of Cheung Sha Wan Road and Nam Cheong Street",
+   "kind": "road",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-088",
+   "district": "Wong Tai Sin",
+   "location": "Kai Tak Nullah near Shatin Pass Road",
+   "kind": "watercourse",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-089",
+   "district": "Wong Tai Sin",
+   "location": "Lung Cheung Road near Hsin Kuang Centre, Wong Tai Sin",
+   "kind": "road",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-090",
+   "district": "Wong Tai Sin",
+   "location": "Lung Cheung Road near Choi Hung MTR Station Exit C2",
+   "kind": "road",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-091",
+   "district": "Wong Tai Sin",
+   "location": "Diamond Hill Tai Hom Road near Plaza Hollywood",
+   "kind": "road",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-092",
+   "district": "Wong Tai Sin",
+   "location": "Lung Cheung Road Outside Wong Tai Sin MTR Exit E",
+   "kind": "road",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-093",
+   "district": "Wong Tai Sin",
+   "location": "Choi Hung Road near entrance of Rhythm Garden",
+   "kind": "road",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-094",
+   "district": "Wong Tai Sin",
+   "location": "Chuk Yuen Bus Terminus, Wong Tai Sin",
+   "kind": "road",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-095",
+   "district": "Yau Tsim Mong",
+   "location": "Nathan Road (between Kansu Street and Saigon Street)",
+   "kind": "road",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-096",
+   "district": "Yau Tsim Mong",
+   "location": "Junction of Waterloo Road and Nathan Road, Mong Kok",
+   "kind": "road",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-097",
+   "district": "Yau Tsim Mong",
+   "location": "Waterloo Road near junction with Wylie Road",
+   "kind": "road",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-098",
+   "district": "Yau Tsim Mong",
+   "location": "Nelson Street (between Sai Yee Street and Fa Yuen Street), Mong Kok",
+   "kind": "road",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-099",
+   "district": "Yau Tsim Mong",
+   "location": "Tai Kok Tsui Cherry Street (Westbound) near Sham Mong Road",
+   "kind": "road",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-100",
+   "district": "Yau Tsim Mong",
+   "location": "Tai Kok Tsui Cherry Street Underpass (Westbound) near Lin Cheung Road",
+   "kind": "underpass",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-101",
+   "district": "Yau Tsim Mong",
+   "location": "Nathan Road (between Boundary Street and Prince Edward Road West), Mong Kok",
+   "kind": "road",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-102",
+   "district": "Yau Tsim Mong",
+   "location": "Chatham Road South (between Granville Road and Austin Avenue)",
+   "kind": "road",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-103",
+   "district": "Yau Tsim Mong",
+   "location": "Junction of Cameron Road and Carnarvon Road",
+   "kind": "road",
+   "geocodeStatus": "ERROR"
+  },
+  {
+   "id": "dsd-b-104",
+   "district": "Kwai Tsing",
+   "location": "Kau Wa Keng near Kau Wa Keng San Tsuen, Mei Foo",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-105",
+   "district": "Kwai Tsing",
+   "location": "Kau Wa Keng near Lai King Hill Road, Mei Foo",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-106",
+   "district": "Kwai Tsing",
+   "location": "Tam Kon Shan Road Roundabout, Tsing Yi",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-107",
+   "district": "Kwai Tsing",
+   "location": "Tsing Yi Road West near Fung Shue Wo Road, Tsing Yi",
+   "kind": "road",
+   "lat": 22.3577281,
+   "lng": 114.1014725,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Tsing Yi Road West & Fung Shue Wo Road, Kwai Tsing, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-108",
+   "district": "Kwai Tsing",
+   "location": "Junction of Shek Yam Road and Shek Yi Road, Kwai Chung",
+   "kind": "road",
+   "lat": 22.368457,
+   "lng": 114.139217,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Shek Yam Road & Shek Yi Road, Kwai Tsing, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-109",
+   "district": "Kwai Tsing",
+   "location": "Tsing Yi Heung Sze Wui Road near Tsing Yi Police Married Quarters",
+   "kind": "road",
+   "lat": 22.347892,
+   "lng": 114.1107583,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Tsing Yi Heung Sze Wui Road & Tsing Yi Police Married Quarters, Kwai Tsing, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-110",
+   "district": "Kwai Tsing",
+   "location": "Kwai Chung Interchange near Ching Cheung Road",
+   "kind": "road",
+   "lat": 22.340554,
+   "lng": 114.13169,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Kwai Chung Interchange near Ching Cheung Road, Kwai Tsing, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-111",
+   "district": "Sai Kung",
+   "location": "Hiram's Highway near lamp post EA9639 and Pak Sha Wan Street",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-112",
+   "district": "Sai Kung",
+   "location": "Tai Mong Tsai Road near lamp post N2559 and Tai Wan Tsuen",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-113",
+   "district": "Sai Kung",
+   "location": "Ho Chung New Village near lamp post VE4489, Sai Kung",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-114",
+   "district": "Sai Kung",
+   "location": "Lung Mei Tsuen Road near lamp post VE6427",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-115",
+   "district": "Sai Kung",
+   "location": "Wong Chuk Wan Village near lamp post VE2425 , Sai Kung",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-116",
+   "district": "Sai Kung",
+   "location": "Leung Fai Tin Upper Road, Ha Yeung Village near lamp post VA6644",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-117",
+   "district": "Sai Kung",
+   "location": "King Yin Lane near lamp post EA5926",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-118",
+   "district": "Sai Kung",
+   "location": "Sha Kok Mei River near lamp post VA9048",
+   "kind": "watercourse",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-119",
+   "district": "Sai Kung",
+   "location": "Clearwater Bay Road Pan Long Wan Village near lamp post VE5177",
+   "kind": "road",
+   "lat": 22.3123589,
+   "lng": 114.2832817,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Clearwater Bay Road Pan Long Wan Village, Sai Kung, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-120",
+   "district": "Sai Kung",
+   "location": "Po Hong Road outside Telephone Exchange, Tseung Kwan O",
+   "kind": "road",
+   "lat": 22.31938,
+   "lng": 114.25636,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Po Hong Road outside Telephone Exchange, Tseung Kwan O, Sai Kung, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-121",
+   "district": "Sai Kung",
+   "location": "Po Lam Road (between Mau Wu Tsai and Ma Yau Tong) near lamp post EA0494, Tsueng Kwan O",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-122",
+   "district": "Sai Kung",
+   "location": "Pik Sha Road, Clear Water Bay",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-123",
+   "district": "Sai Kung",
+   "location": "Tai Mong Tsai Road near Tso Wo Hang",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-124",
+   "district": "Sai Kung",
+   "location": "Wan Po Road near Chun Yat Street near lamp post EB4253",
+   "kind": "road",
+   "lat": 22.2898483,
+   "lng": 114.2739729,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Wan Po Road & Chun Yat Street, Sai Kung, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-125",
+   "district": "Sai Kung",
+   "location": "Ma Yau Tong Road Star View Villa near lamp post EB1964",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-126",
+   "district": "Sai Kung",
+   "location": "Po Hong Road near SKH Tseung Kwan O Kei Tak Primary School, Tsueng Kwan O",
+   "kind": "road",
+   "lat": 22.3236527,
+   "lng": 114.2519132,
+   "precision": "ROOFTOP",
+   "query": "Po Hong Road near SKH Tseung Kwan O Kei Tak Primary School, Tsueng Kwan O, Sai Kung, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-127",
+   "district": "Sai Kung",
+   "location": "Ying Yip Road near Chap Fuk Road near lamp post BE0877",
+   "kind": "road",
+   "lat": 22.3203221,
+   "lng": 114.2657443,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Ying Yip Road & Chap Fuk Road, Sai Kung, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-128",
+   "district": "Sai Kung",
+   "location": "Ho Chung Road near lamp post EA6583",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-129",
+   "district": "Sai Kung",
+   "location": "Hiram's Highway (between Tai Chung Hau Road and Ta Ho Tun Road)",
+   "kind": "road",
+   "lat": 22.372109350000002,
+   "lng": 114.26001435,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Hiram's Highway & Tai Chung Hau Road, Sai Kung, Hong Kong | Hiram's Highway & Ta Ho Tun Road, Sai Kung, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-130",
+   "district": "Sai Kung",
+   "location": "Clearwater Bay Road near lamp post EB8520",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-131",
+   "district": "Sha Tin",
+   "location": "Tsang Tai Uk Floodwater Storage Pond intake near Tsang Tai Uk village office",
+   "kind": "watercourse",
+   "lat": 22.3738871,
+   "lng": 114.190532,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Tsang Tai Uk Floodwater Storage Pond intake near Tsang Tai Uk village office, Sha Tin, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-132",
+   "district": "Sha Tin",
+   "location": "On Shan Lane intake near Ma On Shan Ambulance Depot",
+   "kind": "watercourse",
+   "lat": 22.4195884,
+   "lng": 114.2331359,
+   "precision": "ROOFTOP",
+   "query": "On Shan Lane intake & Ma On Shan Ambulance Depot, Sha Tin, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-133",
+   "district": "Sha Tin",
+   "location": "Sha Tin Tau Village open channel near Sha Tin Tau Village sitting out area",
+   "kind": "watercourse",
+   "lat": 22.3734351,
+   "lng": 114.189611,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Sha Tin Tau Village open channel near Sha Tin Tau Village sitting out area, Sha Tin, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-134",
+   "district": "Sha Tin",
+   "location": "Sha Tin Tin Liu Village near lamp post VE2931",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-135",
+   "district": "Sha Tin",
+   "location": "Sha Tin Ha Wo Che Village near lamp post VE6136",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-136",
+   "district": "Sha Tin",
+   "location": "Fo Tan Wo Liu Hang Village near lamp post CE1735 and V8160",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-137",
+   "district": "Sha Tin",
+   "location": "Fo Tan Tat Yip Lane near Man Hang",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-138",
+   "district": "Sha Tin",
+   "location": "Fo Tan Road near lamp post BE0348",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-139",
+   "district": "Sha Tin",
+   "location": "Drainage Intake at Ma Liu Shui Chek Nai Ping village",
+   "kind": "watercourse",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-140",
+   "district": "Sha Tin",
+   "location": "Tai Po Road near lamp post N6940",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-141",
+   "district": "Sha Tin",
+   "location": "On King Street near lamp post EA4765, Sha Tin",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-142",
+   "district": "Tsuen Wan",
+   "location": "Ma Sim Pai Road near Chun Sam Yuen, Tsuen Wan Lo Wai",
+   "kind": "road",
+   "lat": 22.3770205,
+   "lng": 114.1212697,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Ma Sim Pai Road & Chun Sam Yuen, Tsuen Wan, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-143",
+   "district": "Tsuen Wan",
+   "location": "Tsuen Tsing Interchange, Tsuen Wan",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-144",
+   "district": "Tsuen Wan",
+   "location": "Wang Lung Street near Lung Tak Street, Tsuen Wan",
+   "kind": "road",
+   "lat": 22.3653646,
+   "lng": 114.1172209,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Wang Lung Street & Lung Tak Street, Tsuen Wan, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-145",
+   "district": "Tsuen Wan",
+   "location": "Tsuen Wan Sheung Kok Shan Road near Western Monastery",
+   "kind": "road",
+   "lat": 22.3830833,
+   "lng": 114.1241913,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Western Monastery, Tsuen Wan, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-146",
+   "district": "Tsuen Wan",
+   "location": "Fu Yung Shan Road near Route Twisk, Tsuen Wan",
+   "kind": "road",
+   "lat": 22.3759157,
+   "lng": 114.1176538,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Fu Yung Shan Road & Route Twisk, Tsuen Wan, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-147",
+   "district": "Tsuen Wan",
+   "location": "Sham Tseng Kau Tsuen near nullah",
+   "kind": "watercourse",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-148",
+   "district": "Wan Chai",
+   "location": "Sharp Street East near Matheson Street",
+   "kind": "road",
+   "lat": 22.2781596,
+   "lng": 114.182711,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Sharp Street East & Matheson Street, Wan Chai, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-149",
+   "district": "Wan Chai",
+   "location": "Junction of Leighton Road and Canal Road East",
+   "kind": "road",
+   "lat": 22.2766255,
+   "lng": 114.181279,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Leighton Road & Canal Road East, Wan Chai, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-150",
+   "district": "Wan Chai",
+   "location": "Fleming Road (between Thomson Road and Hennessy Road)",
+   "kind": "road",
+   "lat": 22.2774737,
+   "lng": 114.17480420000001,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Fleming Road & Thomson Road, Wan Chai, Hong Kong | Fleming Road & Hennessy Road, Wan Chai, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-151",
+   "district": "Wan Chai",
+   "location": "Hennessy Road near bus lay-by outside Southern Playground",
+   "kind": "road",
+   "lat": 22.27657,
+   "lng": 114.17229,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Hennessy Road near bus lay-by outside Southern Playground, Wan Chai, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-152",
+   "district": "Wan Chai",
+   "location": "Junction of Tai Yuen Street and Johnston Road",
+   "kind": "road",
+   "lat": 22.2765147,
+   "lng": 114.1731635,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Tai Yuen Street & Johnston Road, Wan Chai, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-153",
+   "district": "Wan Chai",
+   "location": "Luard Road (between Johnston Road and Thomson Road)",
+   "kind": "road",
+   "lat": 22.27670205,
+   "lng": 114.1715138,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Luard Road & Johnston Road, Wan Chai, Hong Kong | Luard Road & Thomson Road, Wan Chai, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-154",
+   "district": "Wan Chai",
+   "location": "Lockhart Road near O'Brien Road",
+   "kind": "road",
+   "lat": 22.2782536,
+   "lng": 114.1733914,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Lockhart Road & O'Brien Road, Wan Chai, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-155",
+   "district": "Wan Chai",
+   "location": "Junction of Percival Street and Lockhart Road",
+   "kind": "road",
+   "lat": 22.2804842,
+   "lng": 114.1824201,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Percival Street & Lockhart Road, Wan Chai, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-156",
+   "district": "Wan Chai",
+   "location": "McGregor Street near Tai Yuen Street and junction of Cross Street and Tai Yuen Street",
+   "kind": "road",
+   "lat": 22.2757468,
+   "lng": 114.1743381,
+   "precision": "ROOFTOP",
+   "query": "McGregor Street near Tai Yuen Street and junction of Cross Street and Tai Yuen Street, Wan Chai, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-157",
+   "district": "Wan Chai",
+   "location": "Morrision Hill Road (between Leighton Road and Wan Chai Road)",
+   "kind": "road",
+   "lat": 22.27726665,
+   "lng": 114.18020455,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Morrision Hill Road & Leighton Road, Wan Chai, Hong Kong | Morrision Hill Road & Wan Chai Road, Wan Chai, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-158",
+   "district": "Wan Chai",
+   "location": "Convention Avenue near Fleming Road",
+   "kind": "road",
+   "lat": 22.281853,
+   "lng": 114.174589,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Convention Avenue near Fleming Road, Wan Chai, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-159",
+   "district": "Wan Chai",
+   "location": "Wan Chai Road (between Cross Street and Queen's Road East) and Queen's Road East near bus lay-by opposite to Stone Nullah Lane",
+   "kind": "watercourse",
+   "lat": 22.27502685,
+   "lng": 114.17411899999999,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Wan Chai Road & Cross Street, Wan Chai, Hong Kong | Wan Chai Road & Queen's Road East, Wan Chai, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-160",
+   "district": "Wan Chai",
+   "location": "Russell Street near Times Square",
+   "kind": "road",
+   "lat": 22.278151,
+   "lng": 114.1821136,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Times Square, Wan Chai, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-161",
+   "district": "Wan Chai",
+   "location": "No. 1-5 Wun Sha Street Tai Hang",
+   "kind": "road",
+   "lat": 22.2792391,
+   "lng": 114.1925234,
+   "precision": "ROOFTOP",
+   "query": "No. 1-5 Wun Sha Street Tai Hang, Wan Chai, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-162",
+   "district": "Wan Chai",
+   "location": "Jaffe Road near Former Wan Chai Police Station",
+   "kind": "road",
+   "lat": 22.2792059,
+   "lng": 114.1753468,
+   "precision": "ROOFTOP",
+   "query": "Jaffe Road & Former Wan Chai Police Station, Wan Chai, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-163",
+   "district": "Wan Chai",
+   "location": "Junction of Shelter Street and Causeway Road",
+   "kind": "road",
+   "lat": 22.2796492,
+   "lng": 114.1881946,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Shelter Street & Causeway Road, Wan Chai, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-164",
+   "district": "Wan Chai",
+   "location": "Leighton Road (between Tung Lo Wan Road and Harven Street)",
+   "kind": "road",
+   "lat": 22.2787248,
+   "lng": 114.18702805000001,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Leighton Road & Tung Lo Wan Road, Wan Chai, Hong Kong | Leighton Road & Harven Street, Wan Chai, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-165",
+   "district": "Wan Chai",
+   "location": "Junction of Tai Hang Road and Perkins Road",
+   "kind": "road",
+   "lat": 22.27045,
+   "lng": 114.19112,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Tai Hang Road & Perkins Road, Wan Chai, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-166",
+   "district": "Wan Chai",
+   "location": "Junction of Paterson Street, Irving Street and Pennington Road, and Yee Wo Street",
+   "kind": "road",
+   "lat": 22.2796444,
+   "lng": 114.1862912,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Paterson Street, Irving Street & Pennington Road, Wan Chai, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-167",
+   "district": "Wan Chai",
+   "location": "Queen's Road East (between Wan Chai Park and Morrison Hill Road)",
+   "kind": "road",
+   "lat": 22.274510149999998,
+   "lng": 114.1767402,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Queen's Road East & Wan Chai Park, Wan Chai, Hong Kong | Queen's Road East & Morrison Hill Road, Wan Chai, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-168",
+   "district": "Wan Chai",
+   "location": "Lai Tak Tsuen Road Bus Terminus",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-169",
+   "district": "Wan Chai",
+   "location": "Junction of Broadwood Road and Wong Nai Chung Road",
+   "kind": "road",
+   "lat": 22.2739747,
+   "lng": 114.1836258,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Broadwood Road & Wong Nai Chung Road, Wan Chai, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-170",
+   "district": "Wan Chai",
+   "location": "Wong Nai Chung Road near Hong Kong Cemetery and Hong Kong Jockey Club",
+   "kind": "road",
+   "lat": 22.277985,
+   "lng": 114.177432,
+   "precision": "ROOFTOP",
+   "query": "Wong Nai Chung Road near Hong Kong Cemetery and Hong Kong Jockey Club, Wan Chai, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-171",
+   "district": "Eastern",
+   "location": "No. 38 Quarry Bay Street in front of Quarry Bay Municipal Services Building",
+   "kind": "road",
+   "lat": 22.2837166,
+   "lng": 114.2117901,
+   "precision": "ROOFTOP",
+   "query": "No. 38 Quarry Bay Street in front of Quarry Bay Municipal Services Building, Eastern, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-172",
+   "district": "Eastern",
+   "location": "Intake at Fei Tsui Road (DSD) (below Elevated Road of Fung Wah Estate)",
+   "kind": "watercourse",
+   "lat": 22.2605481,
+   "lng": 114.2310959,
+   "precision": "ROOFTOP",
+   "query": "Intake at Fei Tsui Road (DSD) (below Elevated Road of Fung Wah Estate), Eastern, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-173",
+   "district": "Eastern",
+   "location": "No. 200 Chai Wan Road",
+   "kind": "road",
+   "lat": 22.2646087,
+   "lng": 114.2338996,
+   "precision": "ROOFTOP",
+   "query": "No. 200 Chai Wan Road, Eastern, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-174",
+   "district": "Eastern",
+   "location": "No. 92 Pan Hoi Street",
+   "kind": "road",
+   "lat": 22.2861385,
+   "lng": 114.212239,
+   "precision": "ROOFTOP",
+   "query": "No. 92 Pan Hoi Street, Eastern, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-175",
+   "district": "Eastern",
+   "location": "No. 888 King's Road",
+   "kind": "road",
+   "lat": 22.2888259,
+   "lng": 114.209506,
+   "precision": "ROOFTOP",
+   "query": "No. 888 King's Road, Eastern, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-176",
+   "district": "Eastern",
+   "location": "No. 16 Chai Wan Road",
+   "kind": "road",
+   "lat": 22.2759435,
+   "lng": 114.2290503,
+   "precision": "ROOFTOP",
+   "query": "No. 16 Chai Wan Road, Eastern, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-177",
+   "district": "Eastern",
+   "location": "Chai Wan Road Roundabout near Wan Tsui Road",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-178",
+   "district": "Eastern",
+   "location": "Junction of Kam Wa Street and Shau Kei Wan Main Street East",
+   "kind": "road",
+   "lat": 22.2777744,
+   "lng": 114.2300685,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Kam Wa Street & Shau Kei Wan Main Street East, Eastern, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-179",
+   "district": "Eastern",
+   "location": "Fu Hong Street and Sun Yip Street, Siu Sai Wan",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-180",
+   "district": "Eastern",
+   "location": "No. 1-25 A Kung Ngam Road, Shau Kei Wan",
+   "kind": "road",
+   "lat": 22.2795488,
+   "lng": 114.231016,
+   "precision": "ROOFTOP",
+   "query": "No. 1-25 A Kung Ngam Road, Shau Kei Wan, Eastern, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-181",
+   "district": "Central and Western",
+   "location": "Junction of Des Voeux Road West and Chiu Kwong Street",
+   "kind": "road",
+   "lat": 22.287644,
+   "lng": 114.139402,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Des Voeux Road West & Chiu Kwong Street, Central and Western, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-182",
+   "district": "Central and Western",
+   "location": "Junction of Des Voeux Road West and Eastern Street",
+   "kind": "road",
+   "lat": 22.2879167,
+   "lng": 114.1437851,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Des Voeux Road West & Eastern Street, Central and Western, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-183",
+   "district": "Central and Western",
+   "location": "May Road near Chatham Path",
+   "kind": "road",
+   "lat": 22.273686,
+   "lng": 114.1560222,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "May Road & Chatham Path, Central and Western, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-184",
+   "district": "Central and Western",
+   "location": "Junction of Queen's Road Central and Ice House Street",
+   "kind": "road",
+   "lat": 22.2802559,
+   "lng": 114.1578847,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Queen's Road Central & Ice House Street, Central and Western, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-185",
+   "district": "Central and Western",
+   "location": "Queensway near Cotton Tree Drive",
+   "kind": "road",
+   "lat": 22.2791664,
+   "lng": 114.1631739,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Queensway & Cotton Tree Drive, Central and Western, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-186",
+   "district": "Central and Western",
+   "location": "Intake of open nullah at Justice Drive near The Miller Theatre",
+   "kind": "watercourse",
+   "lat": 22.2747087,
+   "lng": 114.1656022,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "The Miller Theatre, Central and Western, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-187",
+   "district": "Central and Western",
+   "location": "Robinson Road near Glenealy roundabout",
+   "kind": "road",
+   "lat": 22.2776174,
+   "lng": 114.1528886,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Robinson Road & Glenealy roundabout, Central and Western, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-188",
+   "district": "Central and Western",
+   "location": "Kennedy Road near Macdonnell Road",
+   "kind": "road",
+   "lat": 22.276527,
+   "lng": 114.158011,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Kennedy Road near Macdonnell Road, Central and Western, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-189",
+   "district": "Central and Western",
+   "location": "Pok Fu Lam Road near Pokfield Road",
+   "kind": "road",
+   "lat": 22.2815911,
+   "lng": 114.1320072,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Pok Fu Lam Road & Pokfield Road, Central and Western, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-190",
+   "district": "Central and Western",
+   "location": "No. 62G and No. 64A Conduit Road",
+   "kind": "road",
+   "lat": 22.2819254,
+   "lng": 114.1441444,
+   "precision": "ROOFTOP",
+   "query": "No. 62G and No. 64A Conduit Road, Central and Western, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-191",
+   "district": "Central and Western",
+   "location": "Des Voeux Road Central near Morrison Street",
+   "kind": "road",
+   "lat": 22.2869847,
+   "lng": 114.1504888,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Des Voeux Road Central & Morrison Street, Central and Western, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-192",
+   "district": "Central and Western",
+   "location": "Jervois Street and Bonham Strand West near Morrison Street",
+   "kind": "road",
+   "lat": 22.2852844,
+   "lng": 114.1527922,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Jervois Street and Bonham Strand West near Morrison Street, Central and Western, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-193",
+   "district": "Central and Western",
+   "location": "Wing Lok Street (between Rumsey Street and Des Voeux Road West)",
+   "kind": "road",
+   "lat": 22.28694695,
+   "lng": 114.1505556,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Wing Lok Street & Rumsey Street, Central and Western, Hong Kong | Wing Lok Street & Des Voeux Road West, Central and Western, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-194",
+   "district": "Central and Western",
+   "location": "Ko Shing Street near Queen's Street",
+   "kind": "road",
+   "lat": 22.2874386,
+   "lng": 114.1471492,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Ko Shing Street & Queen's Street, Central and Western, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-195",
+   "district": "Central and Western",
+   "location": "Hillier Street near Bonham Strand",
+   "kind": "road",
+   "lat": 22.2857635,
+   "lng": 114.1518719,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Hillier Street & Bonham Strand, Central and Western, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-196",
+   "district": "Central and Western",
+   "location": "Junction of Belchers Street and Collinson Street",
+   "kind": "road",
+   "lat": 22.2856941,
+   "lng": 114.1324601,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Belchers Street & Collinson Street, Central and Western, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-197",
+   "district": "Central and Western",
+   "location": "Junction of Queen's Road West and Hill Road",
+   "kind": "road",
+   "lat": 22.2861145,
+   "lng": 114.1351933,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Queen's Road West & Hill Road, Central and Western, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-198",
+   "district": "Central and Western",
+   "location": "Pok Fu Lam Road near Hill Road Flyover",
+   "kind": "road",
+   "lat": 22.2847407,
+   "lng": 114.1372768,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Pok Fu Lam Road & Hill Road Flyover, Central and Western, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-199",
+   "district": "Central and Western",
+   "location": "Kennedy Road near Borrett Road",
+   "kind": "road",
+   "lat": 22.276105,
+   "lng": 114.163228,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Kennedy Road & Borrett Road, Central and Western, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-200",
+   "district": "Central and Western",
+   "location": "Junction of Connaught Road West near Water Street",
+   "kind": "road",
+   "lat": 22.2880717,
+   "lng": 114.1386041,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Junction of Connaught Road West & Water Street, Central and Western, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-201",
+   "district": "Central and Western",
+   "location": "Magazine Gap Road near May Road",
+   "kind": "road",
+   "lat": 22.2732887,
+   "lng": 114.1581448,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Magazine Gap Road & May Road, Central and Western, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-202",
+   "district": "Central and Western",
+   "location": "Rockhill Street near Kennedy Town MTR station",
+   "kind": "road",
+   "lat": 22.2812467,
+   "lng": 114.1288825,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Rockhill Street & Kennedy Town MTR station, Central and Western, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-203",
+   "district": "Central and Western",
+   "location": "No. 58-60 Kennedy Road",
+   "kind": "road",
+   "lat": 22.274353,
+   "lng": 114.1694004,
+   "precision": "ROOFTOP",
+   "query": "No. 58-60 Kennedy Road, Central and Western, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-204",
+   "district": "Southern",
+   "location": "No. 8 - 38 Tai Tam Road",
+   "kind": "road",
+   "lat": 22.2299465,
+   "lng": 114.2187329,
+   "precision": "ROOFTOP",
+   "query": "No. 8 - 38 Tai Tam Road, Southern, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-205",
+   "district": "Southern",
+   "location": "Island Road adjoining Deep Water Bay Road",
+   "kind": "road",
+   "lat": 22.2460402,
+   "lng": 114.1856419,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Island Road & Deep Water Bay Road, Southern, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-206",
+   "district": "Southern",
+   "location": "No. 113 Repulse Bay Road and No. 33 Beach Road",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-207",
+   "district": "Southern",
+   "location": "Big Wave Bay Village near Entrances",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-208",
+   "district": "Southern",
+   "location": "Aberdeen Praya Road near Old Main Street Aberdeen",
+   "kind": "road",
+   "lat": 22.2474,
+   "lng": 114.15532,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Aberdeen Praya Road near Old Main Street Aberdeen, Southern, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-209",
+   "district": "Southern",
+   "location": "Pok Fu Lam Village near Entrances",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-210",
+   "district": "Southern",
+   "location": "Junction of Shek Pai Wan Road and Aberdeen Praya Road",
+   "kind": "road",
+   "lat": 22.2492633,
+   "lng": 114.1455277,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Shek Pai Wan Road & Aberdeen Praya Road, Southern, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-211",
+   "district": "Southern",
+   "location": "Junction of Wong Chuk Hang Road and Nam Long Shan Road",
+   "kind": "road",
+   "lat": 22.2486536,
+   "lng": 114.1663921,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Wong Chuk Hang Road & Nam Long Shan Road, Southern, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-212",
+   "district": "Southern",
+   "location": "Wong Chuk Hang Road near San Wai Tsuen",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-213",
+   "district": "Southern",
+   "location": "Wong Chuk Hang Road near Ocean Park Road",
+   "kind": "road",
+   "lat": 22.2510619,
+   "lng": 114.1704749,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Wong Chuk Hang Road & Ocean Park Road, Southern, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-214",
+   "district": "Southern",
+   "location": "Wah Fu Road (between Wah King Street and Waterfall Bay Road)",
+   "kind": "road",
+   "lat": 22.25092245,
+   "lng": 114.13690045,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Wah Fu Road & Wah King Street, Southern, Hong Kong | Wah Fu Road & Waterfall Bay Road, Southern, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-215",
+   "district": "Southern",
+   "location": "Aberdeen Main Road (between Aberdeen Reservoir Road and Wu Pak Street)",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-216",
+   "district": "Southern",
+   "location": "Tsung Man Street near Aberdeen Praya Road",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-217",
+   "district": "Southern",
+   "location": "Ocean Park Road near Hong Kong Police College",
+   "kind": "road",
+   "lat": 22.2455002,
+   "lng": 114.1712435,
+   "precision": "ROOFTOP",
+   "query": "Ocean Park Road & Hong Kong Police College, Southern, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-218",
+   "district": "Southern",
+   "location": "Pok Fu Lam Road near Sassoon Road",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-219",
+   "district": "Southern",
+   "location": "The Duchess of Kent Children's Hospital at Sandy Bay",
+   "kind": "road",
+   "lat": 22.27129,
+   "lng": 114.1239278,
+   "precision": "ROOFTOP",
+   "query": "The Duchess of Kent Children's Hospital at Sandy Bay, Southern, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-220",
+   "district": "Southern",
+   "location": "Shek O Road near Cape Collision Road",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-221",
+   "district": "Islands",
+   "location": "Tung Chung Road near Ha Ling Pei Village",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-222",
+   "district": "Islands",
+   "location": "Drainage intake beside Cheung Tung Road, Tung Chung near lamp post FB7377",
+   "kind": "watercourse",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-223",
+   "district": "Islands",
+   "location": "Drainage intake beside Cheung Tung Road, Tung Chung near lamp post FB7376",
+   "kind": "watercourse",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-224",
+   "district": "Islands",
+   "location": "Drainage intake beside Cheung Tung Road, Tung Chung near lamp post FB7373",
+   "kind": "watercourse",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-225",
+   "district": "Islands",
+   "location": "Ham Tin Sun Tsuen near vehicular bridge, Pui O",
+   "kind": "road",
+   "lat": 22.242185,
+   "lng": 113.980883,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Ham Tin Sun Tsuen near vehicular bridge, Pui O, Islands, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-226",
+   "district": "Islands",
+   "location": "Ling Tsui Tau Village near Cul-de-sac, Mui Wo",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-227",
+   "district": "Islands",
+   "location": "Cheung Fu Street near drainage inlet, Lantau Island",
+   "kind": "watercourse",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-228",
+   "district": "Islands",
+   "location": "Cheung Tung Road near Siu Ho Wan Water Treatment Works",
+   "kind": "road",
+   "lat": 22.311885,
+   "lng": 113.9950558,
+   "precision": "ROOFTOP",
+   "query": "Cheung Tung Road near Siu Ho Wan Water Treatment Works, Islands, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-229",
+   "district": "Islands",
+   "location": "Tung Chung Eastern Interchange (roundabout connecting North Lantau Highway and Yu Tung Road)",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  },
+  {
+   "id": "dsd-b-230",
+   "district": "Islands",
+   "location": "South Lantau Road near Tong Fuk Village bus stop",
+   "kind": "road",
+   "lat": 22.227708,
+   "lng": 113.932352,
+   "precision": "GEOMETRIC_CENTER",
+   "query": "Tong Fuk Village bus stop, Islands, Hong Kong",
+   "geocodeStatus": "OK"
+  },
+  {
+   "id": "dsd-b-231",
+   "district": "Islands",
+   "location": "Chi Ma Wan Road near Shap Long Kau Tsuen, Lantau Island",
+   "kind": "road",
+   "geocodeStatus": "APPROXIMATE_ONLY"
+  }
+ ]
+}

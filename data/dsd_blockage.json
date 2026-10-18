@@ -1,0 +1,1394 @@
+{
+ "source": "Drainage Services Department – District Locations Prone to Blockage",
+ "url": "https://www.dsd.gov.hk/EN/Flood_Prevention/Our_Flooding_Situation/Flood_Prone_Areas/Locations_Prone_To_Blockage/index.html",
+ "retrieved": "2026-10-14",
+ "note": "Locations transcribed from the DSD PDF. Coordinates are added by geocoding and are indicative only.",
+ "locations": [
+  {
+   "id": "dsd-b-001",
+   "district": "North",
+   "location": "Ng Tung River near lot no. 3 and no. 5 in D.D. 52, Fu Tei Au, Sheung Shui",
+   "kind": "watercourse"
+  },
+  {
+   "id": "dsd-b-002",
+   "district": "North",
+   "location": "Fu Tei Au (Man Kam To Road near lamp post AD6590), Sheung Shui",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-003",
+   "district": "North",
+   "location": "Ping Yuen River (Ta Kwu Ling Tong Fong near lamp post EB5490)",
+   "kind": "watercourse"
+  },
+  {
+   "id": "dsd-b-004",
+   "district": "North",
+   "location": "Security Grille of Channel Outlet near Border Fence Gate no. 64E, Muk Wu",
+   "kind": "watercourse"
+  },
+  {
+   "id": "dsd-b-005",
+   "district": "North",
+   "location": "Cross road culvert at Ping Che Road near Baptist Assembly",
+   "kind": "watercourse"
+  },
+  {
+   "id": "dsd-b-006",
+   "district": "North",
+   "location": "Ping Kong Road near lamp post GD1138",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-007",
+   "district": "North",
+   "location": "Fan Kam Road near Lin Tong Mei lamp post N8922",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-008",
+   "district": "North",
+   "location": "Kam Tsin Road near lamp post AD1426",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-009",
+   "district": "North",
+   "location": "Man Kam To Road near Fu Tei Au",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-010",
+   "district": "North",
+   "location": "Ping Yuen Road near lamp post CD2034",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-011",
+   "district": "North",
+   "location": "Fan Kam Road near On Po Tsuen lamp post AJ1497",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-012",
+   "district": "North",
+   "location": "Sheung Shui Hang Tau Village near Village Office",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-013",
+   "district": "North",
+   "location": "Kong Nga Po Road near lot no. 331 in D.D. 87",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-014",
+   "district": "North",
+   "location": "Kong Nga Po Road near lamp post VA6349",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-015",
+   "district": "North",
+   "location": "Man Kam To Road near Kong Nga Po Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-016",
+   "district": "North",
+   "location": "Cross road drain at Ho Sheung Heung Road near Ma Tso Lung Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-017",
+   "district": "North",
+   "location": "Lin Ma Hang Road roundabout near Heung Yuen Wai Control Point",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-018",
+   "district": "North",
+   "location": "Cross road culvert at Ping Che Road near Li Uk",
+   "kind": "watercourse"
+  },
+  {
+   "id": "dsd-b-019",
+   "district": "North",
+   "location": "Tsz Tong Tsuen near Sui Wan Road, Fanling",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-020",
+   "district": "North",
+   "location": "Shung Him Tong Tsuen near No. 20 Shung Him Tong, Fanling",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-021",
+   "district": "North",
+   "location": "Ng Tung River, Kwan Tei North (near lamp post VD2301)",
+   "kind": "watercourse"
+  },
+  {
+   "id": "dsd-b-022",
+   "district": "North",
+   "location": "Tong Kung Leng near Lions Pavilion (near lamp post VD7429)",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-023",
+   "district": "North",
+   "location": "Junction of San Wan Road, Fanling and Jockey Club Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-024",
+   "district": "North",
+   "location": "Tan Shan River near Tan Chuk Hang Lo Wai",
+   "kind": "watercourse"
+  },
+  {
+   "id": "dsd-b-025",
+   "district": "North",
+   "location": "Lam Kam Road near Ping Long Refuse Collection Point",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-026",
+   "district": "Tai Po",
+   "location": "Junction of Hai Wing Road and Lung Ma Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-027",
+   "district": "Tai Po",
+   "location": "Junction of Ting Kok Road and Chim Uk Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-028",
+   "district": "Tai Po",
+   "location": "Parking area at Yue Kok, Tai Po",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-029",
+   "district": "Tai Po",
+   "location": "Nam Wan Road MTR bridge underpass",
+   "kind": "underpass"
+  },
+  {
+   "id": "dsd-b-030",
+   "district": "Tai Po",
+   "location": "Tai Po Road - Tai Po Kau near Tsung Tsai Yuen",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-031",
+   "district": "Tai Po",
+   "location": "Tai Po Road - Yuen Chau Tsai outside Kwong Fuk Park",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-032",
+   "district": "Tai Po",
+   "location": "Chung Nga Road near Hong Kong Red Swastika Society Tai Po Secondary School",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-033",
+   "district": "Tai Po",
+   "location": "Sai Sha Road near Kwun Hang",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-034",
+   "district": "Tuen Mun",
+   "location": "Siu Lam Tsuen Subway near junction of Tsing Lam Road",
+   "kind": "underpass"
+  },
+  {
+   "id": "dsd-b-035",
+   "district": "Tuen Mun",
+   "location": "No. 68-76 Shun Tat Street",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-036",
+   "district": "Tuen Mun",
+   "location": "Nai Wai Channel near junction of Castle Peak Road - Lam Tei and Wong Kong Wai Road",
+   "kind": "watercourse"
+  },
+  {
+   "id": "dsd-b-037",
+   "district": "Tuen Mun",
+   "location": "Leung King Estate near walkpath to Por Lo Shan",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-038",
+   "district": "Tuen Mun",
+   "location": "Channel near lamp post AJ0927 in Castle Peak Village",
+   "kind": "watercourse"
+  },
+  {
+   "id": "dsd-b-039",
+   "district": "Tuen Mun",
+   "location": "Hung Lau sitting-out area entrance near lamp post H0276",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-040",
+   "district": "Tuen Mun",
+   "location": "No. 41 Yeung Tsing Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-041",
+   "district": "Yuen Long",
+   "location": "No. 89 Ko Po Tsuen (near lamp post FC0088), Kam Tin",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-042",
+   "district": "Yuen Long",
+   "location": "Tai Kong Po Kong Tai Road near lamp post H2744, Pat Heung",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-043",
+   "district": "Yuen Long",
+   "location": "San Tin - Mai Po near Tam Kon Chau",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-044",
+   "district": "Yuen Long",
+   "location": "San Tin West Watercourse near Sam Po Shue",
+   "kind": "watercourse"
+  },
+  {
+   "id": "dsd-b-045",
+   "district": "Yuen Long",
+   "location": "Chau Tau Tsuen Box Culvert Crossing",
+   "kind": "watercourse"
+  },
+  {
+   "id": "dsd-b-046",
+   "district": "Yuen Long",
+   "location": "Castle Peak Road - San Tin near San Tin Post Office",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-047",
+   "district": "Yuen Long",
+   "location": "Junction of Castle Peak Road - San Tin and Shek Wu Wai Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-048",
+   "district": "Yuen Long",
+   "location": "Box Culvert Crossing near Shek Wu Wai Village",
+   "kind": "watercourse"
+  },
+  {
+   "id": "dsd-b-049",
+   "district": "Yuen Long",
+   "location": "Inlet to San Tin Stormwater Pumping Station",
+   "kind": "watercourse"
+  },
+  {
+   "id": "dsd-b-050",
+   "district": "Yuen Long",
+   "location": "Ha Wan Tsuen Outfall",
+   "kind": "watercourse"
+  },
+  {
+   "id": "dsd-b-051",
+   "district": "Yuen Long",
+   "location": "Lok Ma Chau Tsuen Outfall",
+   "kind": "watercourse"
+  },
+  {
+   "id": "dsd-b-052",
+   "district": "Yuen Long",
+   "location": "Tseung Kong Wai (near lamp post V6205)",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-053",
+   "district": "Yuen Long",
+   "location": "San Sang Tsuen near lamp post VD2087",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-054",
+   "district": "Yuen Long",
+   "location": "Nim Wan Road near Ap Tsai Hang",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-055",
+   "district": "Yuen Long",
+   "location": "Ho Lik Pui near lamp post VG4082",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-056",
+   "district": "Yuen Long",
+   "location": "Near No. 23 Cheuk Yuen Tsuen",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-057",
+   "district": "Yuen Long",
+   "location": "Kam Tin Road near Shek Kong Barracks",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-058",
+   "district": "Yuen Long",
+   "location": "Shan Ha Tsuen Sitting-out Area",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-059",
+   "district": "Yuen Long",
+   "location": "Lin Fa Tei near lamp post U8422",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-060",
+   "district": "Yuen Long",
+   "location": "Shung Ching San Tsuen near lamp post VA6813",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-061",
+   "district": "Yuen Long",
+   "location": "Shui Chiu San Tsuen near lamp post VG4023",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-062",
+   "district": "Yuen Long",
+   "location": "Junction of Kam Tin Road and Fan Kam Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-063",
+   "district": "Yuen Long",
+   "location": "Near No. 28 Wo Sang Wai",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-064",
+   "district": "Yuen Long",
+   "location": "Near No. B6A, Wing Kei Tsuen",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-065",
+   "district": "Yuen Long",
+   "location": "Kam Shui Road North near lamp post AD4942",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-066",
+   "district": "Kowloon City",
+   "location": "Waterloo Road near Vista Panorama (near lamp post AA4865)",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-067",
+   "district": "Kowloon City",
+   "location": "Kowloon Tong MTR Station near Suffolk Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-068",
+   "district": "Kowloon City",
+   "location": "No. 2 Cornwall Street near Ede Road Garden",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-069",
+   "district": "Kowloon City",
+   "location": "Junction of Sung Wong Toi Road and To Kwa Wan Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-070",
+   "district": "Kowloon City",
+   "location": "Junction of Chi Man Street and Princess Margaret Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-071",
+   "district": "Kowloon City",
+   "location": "Chung Hau Street outside Ho Man Tin MTR Station Exit B2",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-072",
+   "district": "Kowloon City",
+   "location": "Junction of Ma Tau Wai Road and Kiang Hsi Street",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-073",
+   "district": "Kowloon City",
+   "location": "Lung Cheung Road near Lung Ting Lane",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-074",
+   "district": "Kowloon City",
+   "location": "Chatham Road North near Bulkeley Street",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-075",
+   "district": "Kowloon City",
+   "location": "Chatham Road North near Ho Man Tin MTR Station Exit B1",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-076",
+   "district": "Kowloon City",
+   "location": "Wa Fung Street near Chatham Road North",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-077",
+   "district": "Kowloon City",
+   "location": "Winslow Street near Chatham Road North",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-078",
+   "district": "Kwun Tong",
+   "location": "Ngau Tau Kok Road (between Ngau Tau Kok MTR Station Exit B1 and Leun On Street)",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-079",
+   "district": "Kwun Tong",
+   "location": "Kwun Tong Road near Hong Ning Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-080",
+   "district": "Kwun Tong",
+   "location": "Kwong Tin Estate Bus Terminus, Lam Tin",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-081",
+   "district": "Kwun Tong",
+   "location": "Kwun Tong Road Underpass at junction of Kwun Tong Road and Hoi Yuen Road",
+   "kind": "underpass"
+  },
+  {
+   "id": "dsd-b-082",
+   "district": "Kwun Tong",
+   "location": "Fuk Tong Road near Tsui Ping Road, Kwun Tong",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-083",
+   "district": "Kwun Tong",
+   "location": "Drainage intake near Bauhinia Trail, Pik Wan Road, Nam Tin",
+   "kind": "watercourse"
+  },
+  {
+   "id": "dsd-b-084",
+   "district": "Kwun Tong",
+   "location": "Tsui Ping Road (between Kai Lim Road and Kwun Tong Road)",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-085",
+   "district": "Sham Shui Po",
+   "location": "Adjacent to the access ramp of Former North Kowloon Magistracy",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-086",
+   "district": "Sham Shui Po",
+   "location": "Junction of Un Chau Street and Hing Wah Street",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-087",
+   "district": "Sham Shui Po",
+   "location": "Junction of Cheung Sha Wan Road and Nam Cheong Street",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-088",
+   "district": "Wong Tai Sin",
+   "location": "Kai Tak Nullah near Shatin Pass Road",
+   "kind": "watercourse"
+  },
+  {
+   "id": "dsd-b-089",
+   "district": "Wong Tai Sin",
+   "location": "Lung Cheung Road near Hsin Kuang Centre, Wong Tai Sin",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-090",
+   "district": "Wong Tai Sin",
+   "location": "Lung Cheung Road near Choi Hung MTR Station Exit C2",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-091",
+   "district": "Wong Tai Sin",
+   "location": "Diamond Hill Tai Hom Road near Plaza Hollywood",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-092",
+   "district": "Wong Tai Sin",
+   "location": "Lung Cheung Road Outside Wong Tai Sin MTR Exit E",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-093",
+   "district": "Wong Tai Sin",
+   "location": "Choi Hung Road near entrance of Rhythm Garden",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-094",
+   "district": "Wong Tai Sin",
+   "location": "Chuk Yuen Bus Terminus, Wong Tai Sin",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-095",
+   "district": "Yau Tsim Mong",
+   "location": "Nathan Road (between Kansu Street and Saigon Street)",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-096",
+   "district": "Yau Tsim Mong",
+   "location": "Junction of Waterloo Road and Nathan Road, Mong Kok",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-097",
+   "district": "Yau Tsim Mong",
+   "location": "Waterloo Road near junction with Wylie Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-098",
+   "district": "Yau Tsim Mong",
+   "location": "Nelson Street (between Sai Yee Street and Fa Yuen Street), Mong Kok",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-099",
+   "district": "Yau Tsim Mong",
+   "location": "Tai Kok Tsui Cherry Street (Westbound) near Sham Mong Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-100",
+   "district": "Yau Tsim Mong",
+   "location": "Tai Kok Tsui Cherry Street Underpass (Westbound) near Lin Cheung Road",
+   "kind": "underpass"
+  },
+  {
+   "id": "dsd-b-101",
+   "district": "Yau Tsim Mong",
+   "location": "Nathan Road (between Boundary Street and Prince Edward Road West), Mong Kok",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-102",
+   "district": "Yau Tsim Mong",
+   "location": "Chatham Road South (between Granville Road and Austin Avenue)",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-103",
+   "district": "Yau Tsim Mong",
+   "location": "Junction of Cameron Road and Carnarvon Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-104",
+   "district": "Kwai Tsing",
+   "location": "Kau Wa Keng near Kau Wa Keng San Tsuen, Mei Foo",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-105",
+   "district": "Kwai Tsing",
+   "location": "Kau Wa Keng near Lai King Hill Road, Mei Foo",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-106",
+   "district": "Kwai Tsing",
+   "location": "Tam Kon Shan Road Roundabout, Tsing Yi",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-107",
+   "district": "Kwai Tsing",
+   "location": "Tsing Yi Road West near Fung Shue Wo Road, Tsing Yi",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-108",
+   "district": "Kwai Tsing",
+   "location": "Junction of Shek Yam Road and Shek Yi Road, Kwai Chung",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-109",
+   "district": "Kwai Tsing",
+   "location": "Tsing Yi Heung Sze Wui Road near Tsing Yi Police Married Quarters",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-110",
+   "district": "Kwai Tsing",
+   "location": "Kwai Chung Interchange near Ching Cheung Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-111",
+   "district": "Sai Kung",
+   "location": "Hiram's Highway near lamp post EA9639 and Pak Sha Wan Street",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-112",
+   "district": "Sai Kung",
+   "location": "Tai Mong Tsai Road near lamp post N2559 and Tai Wan Tsuen",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-113",
+   "district": "Sai Kung",
+   "location": "Ho Chung New Village near lamp post VE4489, Sai Kung",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-114",
+   "district": "Sai Kung",
+   "location": "Lung Mei Tsuen Road near lamp post VE6427",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-115",
+   "district": "Sai Kung",
+   "location": "Wong Chuk Wan Village near lamp post VE2425 , Sai Kung",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-116",
+   "district": "Sai Kung",
+   "location": "Leung Fai Tin Upper Road, Ha Yeung Village near lamp post VA6644",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-117",
+   "district": "Sai Kung",
+   "location": "King Yin Lane near lamp post EA5926",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-118",
+   "district": "Sai Kung",
+   "location": "Sha Kok Mei River near lamp post VA9048",
+   "kind": "watercourse"
+  },
+  {
+   "id": "dsd-b-119",
+   "district": "Sai Kung",
+   "location": "Clearwater Bay Road Pan Long Wan Village near lamp post VE5177",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-120",
+   "district": "Sai Kung",
+   "location": "Po Hong Road outside Telephone Exchange, Tseung Kwan O",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-121",
+   "district": "Sai Kung",
+   "location": "Po Lam Road (between Mau Wu Tsai and Ma Yau Tong) near lamp post EA0494, Tsueng Kwan O",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-122",
+   "district": "Sai Kung",
+   "location": "Pik Sha Road, Clear Water Bay",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-123",
+   "district": "Sai Kung",
+   "location": "Tai Mong Tsai Road near Tso Wo Hang",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-124",
+   "district": "Sai Kung",
+   "location": "Wan Po Road near Chun Yat Street near lamp post EB4253",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-125",
+   "district": "Sai Kung",
+   "location": "Ma Yau Tong Road Star View Villa near lamp post EB1964",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-126",
+   "district": "Sai Kung",
+   "location": "Po Hong Road near SKH Tseung Kwan O Kei Tak Primary School, Tsueng Kwan O",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-127",
+   "district": "Sai Kung",
+   "location": "Ying Yip Road near Chap Fuk Road near lamp post BE0877",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-128",
+   "district": "Sai Kung",
+   "location": "Ho Chung Road near lamp post EA6583",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-129",
+   "district": "Sai Kung",
+   "location": "Hiram's Highway (between Tai Chung Hau Road and Ta Ho Tun Road)",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-130",
+   "district": "Sai Kung",
+   "location": "Clearwater Bay Road near lamp post EB8520",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-131",
+   "district": "Sha Tin",
+   "location": "Tsang Tai Uk Floodwater Storage Pond intake near Tsang Tai Uk village office",
+   "kind": "watercourse"
+  },
+  {
+   "id": "dsd-b-132",
+   "district": "Sha Tin",
+   "location": "On Shan Lane intake near Ma On Shan Ambulance Depot",
+   "kind": "watercourse"
+  },
+  {
+   "id": "dsd-b-133",
+   "district": "Sha Tin",
+   "location": "Sha Tin Tau Village open channel near Sha Tin Tau Village sitting out area",
+   "kind": "watercourse"
+  },
+  {
+   "id": "dsd-b-134",
+   "district": "Sha Tin",
+   "location": "Sha Tin Tin Liu Village near lamp post VE2931",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-135",
+   "district": "Sha Tin",
+   "location": "Sha Tin Ha Wo Che Village near lamp post VE6136",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-136",
+   "district": "Sha Tin",
+   "location": "Fo Tan Wo Liu Hang Village near lamp post CE1735 and V8160",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-137",
+   "district": "Sha Tin",
+   "location": "Fo Tan Tat Yip Lane near Man Hang",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-138",
+   "district": "Sha Tin",
+   "location": "Fo Tan Road near lamp post BE0348",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-139",
+   "district": "Sha Tin",
+   "location": "Drainage Intake at Ma Liu Shui Chek Nai Ping village",
+   "kind": "watercourse"
+  },
+  {
+   "id": "dsd-b-140",
+   "district": "Sha Tin",
+   "location": "Tai Po Road near lamp post N6940",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-141",
+   "district": "Sha Tin",
+   "location": "On King Street near lamp post EA4765, Sha Tin",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-142",
+   "district": "Tsuen Wan",
+   "location": "Ma Sim Pai Road near Chun Sam Yuen, Tsuen Wan Lo Wai",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-143",
+   "district": "Tsuen Wan",
+   "location": "Tsuen Tsing Interchange, Tsuen Wan",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-144",
+   "district": "Tsuen Wan",
+   "location": "Wang Lung Street near Lung Tak Street, Tsuen Wan",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-145",
+   "district": "Tsuen Wan",
+   "location": "Tsuen Wan Sheung Kok Shan Road near Western Monastery",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-146",
+   "district": "Tsuen Wan",
+   "location": "Fu Yung Shan Road near Route Twisk, Tsuen Wan",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-147",
+   "district": "Tsuen Wan",
+   "location": "Sham Tseng Kau Tsuen near nullah",
+   "kind": "watercourse"
+  },
+  {
+   "id": "dsd-b-148",
+   "district": "Wan Chai",
+   "location": "Sharp Street East near Matheson Street",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-149",
+   "district": "Wan Chai",
+   "location": "Junction of Leighton Road and Canal Road East",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-150",
+   "district": "Wan Chai",
+   "location": "Fleming Road (between Thomson Road and Hennessy Road)",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-151",
+   "district": "Wan Chai",
+   "location": "Hennessy Road near bus lay-by outside Southern Playground",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-152",
+   "district": "Wan Chai",
+   "location": "Junction of Tai Yuen Street and Johnston Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-153",
+   "district": "Wan Chai",
+   "location": "Luard Road (between Johnston Road and Thomson Road)",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-154",
+   "district": "Wan Chai",
+   "location": "Lockhart Road near O'Brien Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-155",
+   "district": "Wan Chai",
+   "location": "Junction of Percival Street and Lockhart Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-156",
+   "district": "Wan Chai",
+   "location": "McGregor Street near Tai Yuen Street and junction of Cross Street and Tai Yuen Street",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-157",
+   "district": "Wan Chai",
+   "location": "Morrision Hill Road (between Leighton Road and Wan Chai Road)",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-158",
+   "district": "Wan Chai",
+   "location": "Convention Avenue near Fleming Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-159",
+   "district": "Wan Chai",
+   "location": "Wan Chai Road (between Cross Street and Queen's Road East) and Queen's Road East near bus lay-by opposite to Stone Nullah Lane",
+   "kind": "watercourse"
+  },
+  {
+   "id": "dsd-b-160",
+   "district": "Wan Chai",
+   "location": "Russell Street near Times Square",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-161",
+   "district": "Wan Chai",
+   "location": "No. 1-5 Wun Sha Street Tai Hang",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-162",
+   "district": "Wan Chai",
+   "location": "Jaffe Road near Former Wan Chai Police Station",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-163",
+   "district": "Wan Chai",
+   "location": "Junction of Shelter Street and Causeway Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-164",
+   "district": "Wan Chai",
+   "location": "Leighton Road (between Tung Lo Wan Road and Harven Street)",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-165",
+   "district": "Wan Chai",
+   "location": "Junction of Tai Hang Road and Perkins Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-166",
+   "district": "Wan Chai",
+   "location": "Junction of Paterson Street, Irving Street and Pennington Road, and Yee Wo Street",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-167",
+   "district": "Wan Chai",
+   "location": "Queen's Road East (between Wan Chai Park and Morrison Hill Road)",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-168",
+   "district": "Wan Chai",
+   "location": "Lai Tak Tsuen Road Bus Terminus",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-169",
+   "district": "Wan Chai",
+   "location": "Junction of Broadwood Road and Wong Nai Chung Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-170",
+   "district": "Wan Chai",
+   "location": "Wong Nai Chung Road near Hong Kong Cemetery and Hong Kong Jockey Club",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-171",
+   "district": "Eastern",
+   "location": "No. 38 Quarry Bay Street in front of Quarry Bay Municipal Services Building",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-172",
+   "district": "Eastern",
+   "location": "Intake at Fei Tsui Road (DSD) (below Elevated Road of Fung Wah Estate)",
+   "kind": "watercourse"
+  },
+  {
+   "id": "dsd-b-173",
+   "district": "Eastern",
+   "location": "No. 200 Chai Wan Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-174",
+   "district": "Eastern",
+   "location": "No. 92 Pan Hoi Street",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-175",
+   "district": "Eastern",
+   "location": "No. 888 King's Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-176",
+   "district": "Eastern",
+   "location": "No. 16 Chai Wan Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-177",
+   "district": "Eastern",
+   "location": "Chai Wan Road Roundabout near Wan Tsui Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-178",
+   "district": "Eastern",
+   "location": "Junction of Kam Wa Street and Shau Kei Wan Main Street East",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-179",
+   "district": "Eastern",
+   "location": "Fu Hong Street and Sun Yip Street, Siu Sai Wan",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-180",
+   "district": "Eastern",
+   "location": "No. 1-25 A Kung Ngam Road, Shau Kei Wan",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-181",
+   "district": "Central and Western",
+   "location": "Junction of Des Voeux Road West and Chiu Kwong Street",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-182",
+   "district": "Central and Western",
+   "location": "Junction of Des Voeux Road West and Eastern Street",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-183",
+   "district": "Central and Western",
+   "location": "May Road near Chatham Path",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-184",
+   "district": "Central and Western",
+   "location": "Junction of Queen's Road Central and Ice House Street",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-185",
+   "district": "Central and Western",
+   "location": "Queensway near Cotton Tree Drive",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-186",
+   "district": "Central and Western",
+   "location": "Intake of open nullah at Justice Drive near The Miller Theatre",
+   "kind": "watercourse"
+  },
+  {
+   "id": "dsd-b-187",
+   "district": "Central and Western",
+   "location": "Robinson Road near Glenealy roundabout",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-188",
+   "district": "Central and Western",
+   "location": "Kennedy Road near Macdonnell Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-189",
+   "district": "Central and Western",
+   "location": "Pok Fu Lam Road near Pokfield Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-190",
+   "district": "Central and Western",
+   "location": "No. 62G and No. 64A Conduit Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-191",
+   "district": "Central and Western",
+   "location": "Des Voeux Road Central near Morrison Street",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-192",
+   "district": "Central and Western",
+   "location": "Jervois Street and Bonham Strand West near Morrison Street",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-193",
+   "district": "Central and Western",
+   "location": "Wing Lok Street (between Rumsey Street and Des Voeux Road West)",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-194",
+   "district": "Central and Western",
+   "location": "Ko Shing Street near Queen's Street",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-195",
+   "district": "Central and Western",
+   "location": "Hillier Street near Bonham Strand",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-196",
+   "district": "Central and Western",
+   "location": "Junction of Belchers Street and Collinson Street",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-197",
+   "district": "Central and Western",
+   "location": "Junction of Queen's Road West and Hill Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-198",
+   "district": "Central and Western",
+   "location": "Pok Fu Lam Road near Hill Road Flyover",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-199",
+   "district": "Central and Western",
+   "location": "Kennedy Road near Borrett Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-200",
+   "district": "Central and Western",
+   "location": "Junction of Connaught Road West near Water Street",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-201",
+   "district": "Central and Western",
+   "location": "Magazine Gap Road near May Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-202",
+   "district": "Central and Western",
+   "location": "Rockhill Street near Kennedy Town MTR station",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-203",
+   "district": "Central and Western",
+   "location": "No. 58-60 Kennedy Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-204",
+   "district": "Southern",
+   "location": "No. 8 - 38 Tai Tam Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-205",
+   "district": "Southern",
+   "location": "Island Road adjoining Deep Water Bay Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-206",
+   "district": "Southern",
+   "location": "No. 113 Repulse Bay Road and No. 33 Beach Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-207",
+   "district": "Southern",
+   "location": "Big Wave Bay Village near Entrances",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-208",
+   "district": "Southern",
+   "location": "Aberdeen Praya Road near Old Main Street Aberdeen",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-209",
+   "district": "Southern",
+   "location": "Pok Fu Lam Village near Entrances",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-210",
+   "district": "Southern",
+   "location": "Junction of Shek Pai Wan Road and Aberdeen Praya Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-211",
+   "district": "Southern",
+   "location": "Junction of Wong Chuk Hang Road and Nam Long Shan Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-212",
+   "district": "Southern",
+   "location": "Wong Chuk Hang Road near San Wai Tsuen",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-213",
+   "district": "Southern",
+   "location": "Wong Chuk Hang Road near Ocean Park Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-214",
+   "district": "Southern",
+   "location": "Wah Fu Road (between Wah King Street and Waterfall Bay Road)",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-215",
+   "district": "Southern",
+   "location": "Aberdeen Main Road (between Aberdeen Reservoir Road and Wu Pak Street)",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-216",
+   "district": "Southern",
+   "location": "Tsung Man Street near Aberdeen Praya Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-217",
+   "district": "Southern",
+   "location": "Ocean Park Road near Hong Kong Police College",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-218",
+   "district": "Southern",
+   "location": "Pok Fu Lam Road near Sassoon Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-219",
+   "district": "Southern",
+   "location": "The Duchess of Kent Children's Hospital at Sandy Bay",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-220",
+   "district": "Southern",
+   "location": "Shek O Road near Cape Collision Road",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-221",
+   "district": "Islands",
+   "location": "Tung Chung Road near Ha Ling Pei Village",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-222",
+   "district": "Islands",
+   "location": "Drainage intake beside Cheung Tung Road, Tung Chung near lamp post FB7377",
+   "kind": "watercourse"
+  },
+  {
+   "id": "dsd-b-223",
+   "district": "Islands",
+   "location": "Drainage intake beside Cheung Tung Road, Tung Chung near lamp post FB7376",
+   "kind": "watercourse"
+  },
+  {
+   "id": "dsd-b-224",
+   "district": "Islands",
+   "location": "Drainage intake beside Cheung Tung Road, Tung Chung near lamp post FB7373",
+   "kind": "watercourse"
+  },
+  {
+   "id": "dsd-b-225",
+   "district": "Islands",
+   "location": "Ham Tin Sun Tsuen near vehicular bridge, Pui O",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-226",
+   "district": "Islands",
+   "location": "Ling Tsui Tau Village near Cul-de-sac, Mui Wo",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-227",
+   "district": "Islands",
+   "location": "Cheung Fu Street near drainage inlet, Lantau Island",
+   "kind": "watercourse"
+  },
+  {
+   "id": "dsd-b-228",
+   "district": "Islands",
+   "location": "Cheung Tung Road near Siu Ho Wan Water Treatment Works",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-229",
+   "district": "Islands",
+   "location": "Tung Chung Eastern Interchange (roundabout connecting North Lantau Highway and Yu Tung Road)",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-230",
+   "district": "Islands",
+   "location": "South Lantau Road near Tong Fuk Village bus stop",
+   "kind": "road"
+  },
+  {
+   "id": "dsd-b-231",
+   "district": "Islands",
+   "location": "Chi Ma Wan Road near Shap Long Kau Tsuen, Lantau Island",
+   "kind": "road"
+  }
+ ]
+}

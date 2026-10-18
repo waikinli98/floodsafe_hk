@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>FloodSafe HK – System status</title>
+  <meta name="theme-color" content="#0b3b5c" />
+  <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+  <style>
+    :root { --ink:#0f1d2a; --muted:#5b6b7a; --line:#e2e8ee; --ok:#1f9d55; --bad:#d7263d; --bg:#f3f6f9; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: Inter, system-ui, -apple-system, "Segoe UI", "Noto Sans TC", sans-serif; background: var(--bg); color: var(--ink); }
+    header { background:#0b3b5c; color:#fff; padding: calc(16px + env(safe-area-inset-top)) 16px 16px; }
+    header h1 { margin:0; font-size:18px; }
+    header p { margin:4px 0 0; opacity:.8; font-size:13px; }
+    main { padding:16px; max-width:640px; margin:0 auto; }
+    .summary { background:#fff; border-radius:14px; padding:14px 16px; margin-bottom:12px; font-weight:600; border:1px solid var(--line); }
+    .row { display:flex; gap:12px; align-items:flex-start; background:#fff; border:1px solid var(--line); border-radius:14px; padding:14px 16px; margin-bottom:8px; }
+    .dot { flex:none; width:12px; height:12px; border-radius:50%; margin-top:5px; background: var(--muted); }
+    .ok .dot { background: var(--ok); } .bad .dot { background: var(--bad); }
+    .name { font-weight:600; }
+    .detail { font-size:13.5px; color: var(--muted); margin-top:2px; word-break: break-word; }
+    .bad .detail { color: var(--bad); }
+    .ms { margin-left:auto; font-size:12px; color: var(--muted); white-space:nowrap; }
+    .actions { display:flex; gap:8px; margin-top:16px; }
+    a, button { flex:1; text-align:center; text-decoration:none; font: inherit; font-weight:600; font-size:14px; padding:12px; border-radius:10px; border:1px solid var(--line); background:#fff; color: var(--ink); cursor:pointer; }
+    button { background:#0a84ff; border-color:#0a84ff; color:#fff; }
+  </style>
+</head>
+<body>
+  <header><h1>FloodSafe HK · System status</h1><p id="when">Checking…</p></header>
+  <main>
+    <div id="summary" class="summary">Running checks…</div>
+    <div id="rows"></div>
+    <div class="actions"><button id="again">Check again</button><a href="/">Open app</a></div>
+  </main>
+  <script>
+    const LABELS = {
+      gemini: 'Gemini AI (photo analysis & briefings)', routes: 'Routes API (rerouting)', geocoding: 'Geocoding API (DSD locations)',
+      places: 'Places API (shelter & search)', hko: 'HK Observatory live data', dsd: 'DSD flood-prone data', storage: 'Report storage',
+    };
+    const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+    function dsdText(d) {
+      if (!d || typeof d !== 'object') return d;
+      const g = { running: 'placing locations on the map…', done: 'ready', file: 'ready (saved file)', cache: 'ready (cached)', 'no-key': 'needs MAPS_SERVER_KEY', error: 'geocoding failed' }[d.geocode] || d.geocode;
+      return `${d.located}/${d.blockageCount} blockage spots located – ${g}. Blackspots feed: ${d.blackspotsLive ? 'live' : 'saved copy'}.`;
+    }
+    async function run() {
+      document.getElementById('summary').textContent = 'Running checks…';
+      document.getElementById('rows').innerHTML = '';
+      try {
+        const r = await (await fetch('/api/selftest')).json();
+        const keys = Object.keys(LABELS).filter((k) => r[k]);
+        const bad = keys.filter((k) => !r[k].ok);
+        document.getElementById('rows').innerHTML = keys.map((k) => {
+          const x = r[k];
+          const detail = k === 'dsd' ? dsdText(x.detail) : k === 'storage' ? (x.detail === 'memory' ? 'In memory (local test – cleared on restart)' : 'Firestore (permanent)') : x.ok ? x.detail : x.error;
+          return `<div class="row ${x.ok ? 'ok' : 'bad'}"><span class="dot"></span><div><div class="name">${esc(LABELS[k])}</div><div class="detail">${esc(detail)}</div></div>${x.ms != null ? `<span class="ms">${x.ms} ms</span>` : ''}</div>`;
+        }).join('');
+        document.getElementById('summary').textContent = bad.length ? `⚠ ${bad.length} problem${bad.length > 1 ? 's' : ''} found` : `✅ All systems working · model ${r.model}`;
+        if (r.dsd?.detail?.geocode === 'running') setTimeout(run, 15000);
+      } catch (e) {
+        document.getElementById('summary').textContent = '⚠ Could not reach the server: ' + e.message;
+      }
+      document.getElementById('when').textContent = 'Last checked ' + new Date().toLocaleTimeString();
+    }
+    document.getElementById('again').onclick = run;
+    run();
+  </script>
+</body>
+</html>
