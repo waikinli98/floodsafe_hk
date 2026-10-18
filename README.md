@@ -1,4 +1,4 @@
-<img width="328" height="46" alt="image" src="https://github.com/user-attachments/assets/e8bf1344-dd71-4007-9e7b-813140ae8a79" /><p align="center">
+
   <img src="docs/icon.png" width="96" alt="FloodSafe HK icon">
 </p>
 
