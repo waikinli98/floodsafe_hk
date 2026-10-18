@@ -179,9 +179,13 @@ FloodSafe HK gives people on foot the street-level picture. Neighbours report fl
 
 ## 🎬 Demo video
 
-[![Watch the 3-minute demo on YouTube](https://img.youtube.com/vi/HLS-qshr5-w/hqdefault.jpg)](https://youtu.be/HLS-qshr5-w)
+<p align="center">
+  <a href="https://youtu.be/780KkuOWIuU">
+    <img src="https://img.youtube.com/vi/780KkuOWIuU/hqdefault.jpg" width="720" alt="Watch the FloodSafe HK demo on YouTube">
+  </a>
+</p>
 
-▶ **[Watch the 3-minute demo on YouTube](https://youtu.be/HLS-qshr5-w)**
+<p align="center">▶ <b><a href="https://youtu.be/780KkuOWIuU">Watch the demo on YouTube</a></b></p>
 
 ---
 
