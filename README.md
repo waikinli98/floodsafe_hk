@@ -1,4 +1,4 @@
-<p align="center">
+<img width="328" height="46" alt="image" src="https://github.com/user-attachments/assets/e8bf1344-dd71-4007-9e7b-813140ae8a79" /><p align="center">
   <img src="docs/icon.png" width="96" alt="FloodSafe HK icon">
 </p>
 
@@ -179,9 +179,9 @@ FloodSafe HK gives people on foot the street-level picture. Neighbours report fl
 
 ## 🎬 Demo video
 
-[![Watch the 3-minute demo on YouTube](https://img.youtube.com/vi/HLS-qshr5-w/hqdefault.jpg)](https://youtu.be/HLS-qshr5-w)
+[![Watch the 3-minute demo on YouTube]<img width="328" height="46" alt="image" src="https://github.com/user-attachments/assets/be4dbc06-9f63-4687-a0f5-cfa0e82cecae" />](https://youtu.be/780KkuOWIuU)
 
-▶ **[Watch the 3-minute demo on YouTube](https://youtu.be/HLS-qshr5-w)**
+▶ **[Watch the 3-minute demo on YouTube](https://youtu.be/780KkuOWIuU)**
 
 ---
 
