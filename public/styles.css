@@ -624,7 +624,7 @@ body.guiding .map-top, body.guiding .map-chip { display: none !important; }
 .dialog-backdrop { position: fixed; inset: 0; z-index: 30; background: rgba(15,29,42,.45); display: grid; place-items: end center; padding: 16px 16px calc(16px + env(safe-area-inset-bottom)); }
 .dialog { width: min(420px, 100%); background: #fff; border-radius: 18px; padding: 18px; box-shadow: var(--shadow); }
 .dialog h3 { margin: 0 0 6px; font-size: 18px; }
-.dialog p { margin: 0 0 14px; color: var(--muted); font-size: 14.5px; line-height: 1.45; }
+.dialog p, .dialog-body { margin: 0 0 14px; color: var(--muted); font-size: 14.5px; line-height: 1.45; }
 .dialog-actions { display: grid; gap: 8px; }
 .dialog-actions .btn { min-height: 48px; font-size: 15px; }
 @media (min-width: 640px) { .dialog-backdrop { place-items: center; } }
@@ -965,3 +965,20 @@ html[data-theme="dark"] .verdict { background: #16283a; border-color: #2b4a66; c
 html[data-theme="dark"] .verdict.avoid { background: #123222; border-color: #2c6a47; }
 html[data-theme="dark"] .verdict.bad { background: #3a1c18; border-color: #7a3328; }
 html[data-theme="dark"] .verdict span { color: #c3ccd5; }
+
+/* v21: account picture keeps its shape (the chip's padding was squeezing it to 18 × 32 px); round button like 中 */
+.chip.icon.settings-btn { padding: 0; width: 46px; min-width: 46px; height: 46px; }
+.settings-btn .avatar { flex: none; width: 34px; height: 34px; }
+.settings-btn .avatar img { display: block; }
+/* share link with a one-tap copy button */
+.share-link { display: flex; align-items: center; gap: 10px; padding: 10px 10px 10px 14px; border: 1px solid var(--line); border-radius: 12px; background: var(--soft, #f4f6f8); margin-top: 4px; }
+.share-link .sl-url { flex: 1; min-width: 0; word-break: break-all; font-size: 14.5px; line-height: 1.35; user-select: all; -webkit-user-select: all; }
+.copy-btn { flex: none; width: 44px; height: 44px; border-radius: 12px; border: 1px solid var(--line); background: #fff; color: #1a73e8; display: grid; place-items: center; cursor: pointer; }
+.copy-btn:active { transform: scale(.94); }
+.copy-btn.done { background: #e6f4ea; border-color: #b7dfc1; color: #1e8e3e; }
+.sl-hint { margin: 8px 2px 0; }
+html[data-theme="dark"] .share-link { background: #1e2a36; border-color: var(--line); }
+html[data-theme="dark"] .copy-btn { background: var(--soft); color: #8ab4f8; border-color: var(--line); }
+html[data-theme="dark"] .copy-btn.done { background: #123222; color: #81c995; border-color: #2c6a47; }
+.dialog-body p { margin: 8px 2px 0; }
+html[data-theme="dark"] .dialog { background: var(--bg); color: var(--ink); border: 1px solid var(--line); }

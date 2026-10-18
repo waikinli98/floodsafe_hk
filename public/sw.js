@@ -1,6 +1,6 @@
 // Minimal service worker: makes FloodSafe installable and keeps the app shell available on a flaky connection.
 // API calls (reports, routes, weather) always go to the network – stale flood data is worse than none.
-const CACHE = 'floodsafe-v24';
+const CACHE = 'floodsafe-v25';
 const SHELL = ['/', '/styles.css', '/app.js', '/i18n.js', '/icon.svg', '/icon-192.png', '/manifest.webmanifest'];
 self.addEventListener('install', (e) => { e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting())); });
 self.addEventListener('activate', (e) => {

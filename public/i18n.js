@@ -101,7 +101,7 @@ const ZH = {
   'Thanks for rating!': '多謝你的評分！',
   // v9: per-visitor demo, route alerts, report evidence, 15-min rainfall
   'Demo on – only you see the simulated black rainstorm and sample reports': '示範模式已開啟 – 只有你會看到模擬黑雨及示範報告',
-  'Demo off – back to live data': '示範模式已關閉 – 回復實時資料', 'Route re-planned with live data': '已按實時資料重新規劃路線', 'Route re-planned with the simulated rainstorm': '已按模擬暴雨重新規劃路線',
+  'Demo off – back to live data': '示範模式已關閉 – 回復實時資料', 'Route re-planned with live data': '已按實時資料重新規劃路線', 'Copy link': '複製連結', 'Tap the copy button, then paste the link in WhatsApp, Signal or a message.': '按複製按鈕，然後把連結貼到 WhatsApp、Signal 或訊息中。', 'Copy did not work here – press and hold the link to copy it.': '這裡未能自動複製 – 請長按連結複製。', 'Route re-planned with the simulated rainstorm': '已按模擬暴雨重新規劃路線',
   'Demo · only you see this': '示範 · 只有你看到',
   'Reporter was on site': '報告者身處現場',
   'Photo taken just now': '相片剛剛拍攝',

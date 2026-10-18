@@ -1704,9 +1704,10 @@ function setReportPhoto(dataUrl, meta = null) {
   renderResume();
 }
 // Small modal with up to three actions (used for "Add a photo?")
-function showDialog({ title, body, actions }) {
+function showDialog({ title, body, html, actions }) {
   const d = $('#dialog');
-  $('#dialogTitle').textContent = title; $('#dialogBody').textContent = body;
+  $('#dialogTitle').textContent = title;
+  if (html) $('#dialogBody').innerHTML = html; else $('#dialogBody').textContent = body;
   $('#dialogActions').innerHTML = actions.map((a, i) => `<button type="button" class="btn ${a.primary ? 'primary' : ''} block" data-i="${i}">${esc(a.label)}</button>`).join('');
   const close = () => { d.hidden = true; };
   $$('#dialogActions button').forEach((b) => (b.onclick = () => { close(); actions[+b.dataset.i].onClick?.(); }));
@@ -2310,6 +2311,29 @@ async function renderSettings() {
 }
 
 // ---------------- share a route ----------------
+const COPY_SVG = '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><rect x="8" y="8" width="12" height="13" rx="2.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16 8V5.5A2.5 2.5 0 0 0 13.5 3h-7A2.5 2.5 0 0 0 4 5.5v9A2.5 2.5 0 0 0 6.5 17H8" fill="none" stroke="currentColor" stroke-width="2"/></svg>';
+const CHECK_SVG = '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="m5 12.5 4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+async function copyText(text) {
+  try { await navigator.clipboard.writeText(text); return true; } catch {}
+  // older browsers / blocked clipboard API: copy through a hidden text box
+  const ta = document.createElement('textarea'); ta.value = text; ta.setAttribute('readonly', ''); ta.style.cssText = 'position:fixed;opacity:0;top:0;left:0';
+  document.body.appendChild(ta); ta.select(); ta.setSelectionRange(0, text.length);
+  let ok = false; try { ok = document.execCommand('copy'); } catch {}
+  ta.remove(); return ok;
+}
+// The link with a one-tap copy button
+function showShareLink(url) {
+  showDialog({ title: t('Share this route'), actions: [{ label: t('Done'), primary: true }],
+    html: `<div class="share-link"><span class="sl-url">${esc(url)}</span><button type="button" class="copy-btn" id="copyLink" aria-label="${esc(t('Copy link'))}" title="${esc(t('Copy link'))}">${COPY_SVG}</button></div>
+      <p class="meta sl-hint" id="copyHint">${esc(t('Tap the copy button, then paste the link in WhatsApp, Signal or a message.'))}</p>` });
+  const b = $('#copyLink');
+  b.onclick = async () => {
+    if (await copyText(url)) {
+      b.innerHTML = CHECK_SVG; b.classList.add('done'); $('#copyHint').textContent = t('Link copied – paste it to share');
+      setTimeout(() => { if (document.body.contains(b)) { b.innerHTML = COPY_SVG; b.classList.remove('done'); } }, 2500);
+    } else { $('#copyHint').textContent = t('Copy did not work here – press and hold the link to copy it.'); getSelection()?.selectAllChildren($('#dialogBody .sl-url')); }
+  };
+}
 function shareRoute(o) {
   requireSignIn(t('Sign in with Google to share this route. Friends who open the link get it re-planned around the latest floods.'), async () => {
     const btn = $('#shareRoute');
@@ -2320,9 +2344,8 @@ function shareRoute(o) {
         minutes: Math.round(o.durationS / 60), shelteredPct: o.shelter?.shelteredPct ?? null } });
       const url = `${location.origin}/?share=${route.id}`;
       const text = t('My flood-safe walk: {a} → {b} (FloodSafe HK)', { a: state.originName, b: state.destName });
-      if (navigator.share) { try { await navigator.share({ title: 'FloodSafe HK', text, url }); return; } catch (e) { if (e.name === 'AbortError') return; } }
-      try { await navigator.clipboard.writeText(url); toast(t('Link copied – paste it to share'), 4000); }
-      catch { showDialog({ title: t('Share this route'), body: url, actions: [{ label: t('Done'), primary: true }] }); }
+      if (navigator.share && TOUCH) { try { await navigator.share({ title: 'FloodSafe HK', text, url }); return; } catch (e) { if (e.name === 'AbortError') return; } }
+      showShareLink(url);
     } catch (e) { toast(e.message); }
     finally { if (btn && document.body.contains(btn)) busy(btn, false); }
   });
@@ -2598,7 +2621,7 @@ function switchLang(l) {
 boot().catch((e) => { console.error(e); toast(e.message, 6000); });
 
 // Test hook: open the app with ?debug to inspect state from the console
-if (new URLSearchParams(location.search).has('debug')) window.__fs = { state, stopGuide, selectOption, askSend, openPlace, setOrigin, setDest, findRoute, switchTab, demoTrip, startGuide, simulateFloodAhead, openPhotoWall, setSheetSize, openSavedRoute, saveRouteOffline, renderPlan, openSignalDetail, UMB, openUmbrella, openSharedRoute, openDetail, focusOn };
+if (new URLSearchParams(location.search).has('debug')) window.__fs = { state, stopGuide, showShareLink, selectOption, askSend, openPlace, setOrigin, setDest, findRoute, switchTab, demoTrip, startGuide, simulateFloodAhead, openPhotoWall, setSheetSize, openSavedRoute, saveRouteOffline, renderPlan, openSignalDetail, UMB, openUmbrella, openSharedRoute, openDetail, focusOn };
 
 // Installable web app (Add to Home Screen)
 if ('serviceWorker' in navigator) {
