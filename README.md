@@ -1,4 +1,4 @@
-
+<p align="center">
   <img src="docs/icon.png" width="96" alt="FloodSafe HK icon">
 </p>
 
