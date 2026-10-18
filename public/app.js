@@ -126,10 +126,11 @@ async function initMap() {
     disableDoubleClickZoom: TOUCH, // on phones our own double-tap handler zooms (and supports double-tap + slide)
   });
   // While picking: a tap moves the pin there (the user still confirms with "Use this spot")
+  const openTapped = tapSafe((placeId, latLng) => { if (!state.pick && !state.guide) openPlace(placeId, latLng); });
   state.map.addListener('click', (e) => {
     if (e.placeId) e.stop(); // our own card instead of Google's small info window
     if (state.pick) return state.map.panTo(e.latLng);
-    if (e.placeId && !state.guide) openPlace(e.placeId, e.latLng);
+    if (e.placeId) openTapped(e.placeId, e.latLng);
   });
   state.map.addListener('idle', () => { if (state.pick) updatePickAddress(); });
   if (TOUCH) initOneHandZoom();
@@ -138,6 +139,19 @@ async function initMap() {
 // One-hand zoom, as in the Google Maps app: double-tap and hold, then slide DOWN to zoom in or UP to zoom out.
 // A quick double-tap still zooms in one step. Zooms around the point you tapped.
 const TOUCH = matchMedia('(pointer: coarse)').matches;
+// A double-tap starts with an ordinary tap. On phones, a tap on the map (a place, pin, station, route…) waits a moment
+// and is dropped if it turns out to be the first half of a double-tap zoom, so zooming never opens something by mistake.
+const DOUBLE_TAP_MS = 380;       // a second tap within this time (and 40 px) is a double-tap
+const TAP_WAIT = 400;            // a single tap acts after this, once it can't be the start of a double-tap
+let lastDoubleTap = 0;
+function tapSafe(fn) {
+  return (...args) => {
+    if (!TOUCH) return fn(...args);
+    const at = Date.now();
+    // drop taps from either half of a double-tap (the map reports both), and the end of a slide-to-zoom
+    setTimeout(() => { if (Math.abs(at - lastDoubleTap) > 450) fn(...args); }, TAP_WAIT);
+  };
+}
 function initOneHandZoom() {
   const el = $('#map'); let last = { t: 0, x: 0, y: 0 }, g = null;
   const opt = { capture: true, passive: false };
@@ -157,8 +171,9 @@ function initOneHandZoom() {
   el.addEventListener('touchstart', (e) => {
     if (e.touches.length !== 1 || state.pick || !state.map) { g = null; return; }
     const t = e.touches[0], now = Date.now();
-    if (now - last.t < 320 && Math.hypot(t.clientX - last.x, t.clientY - last.y) < 40) {
+    if (now - last.t < DOUBLE_TAP_MS && Math.hypot(t.clientX - last.x, t.clientY - last.y) < 40) {
       g = { y0: t.clientY, x: t.clientX, y: t.clientY, z0: state.map.getZoom(), moved: false };
+      lastDoubleTap = now;   // cancels whatever the first tap was about to open
       stop(e);
     }
     last = { t: now, x: t.clientX, y: t.clientY };
@@ -173,7 +188,7 @@ function initOneHandZoom() {
   el.addEventListener('touchend', (e) => {
     if (!g) return;
     if (!g.moved) zoomAt(Math.min(21, Math.round(g.z0) + 1), g.x, g.y);
-    g = null; last.t = 0; stop(e);
+    g = null; last.t = 0; lastDoubleTap = Date.now(); stop(e);
     try { localStorage.setItem('fs-tip-zoom', '1'); } catch {}
   }, opt);
   // one-time tip
@@ -569,7 +584,7 @@ function drawDsd() {
   const active = state.dsd.activeSignal;
   const add = (pos, el, item) => {
     const m = new state.Adv({ map: state.map, position: pos, content: el, title: item.title, zIndex: item.z || 1 });
-    m.addListener('click', () => openDsdDetail(item));
+    m.addListener('click', tapSafe(() => openDsdDetail(item)));
     state.dsdMarkers.push(m);
   };
   const live = active === 'red' || active === 'black';
@@ -695,9 +710,12 @@ async function drawRain() {
   });
   data.addListener('click', (e) => {
     if (state.pick) { state.map.panTo(e.latLng); return; }
+    tapSafe(() => rainToast(e))();
+  });
+  const rainToast = (e) => {
     const r = byKey.get(e.feature.getProperty('key'));
     toast(`${L(e.feature.getProperty('en'), e.feature.getProperty('zh'))}: ${t('{mm} mm in the past hour', { mm: r?.mm ?? 0 })}`);
-  });
+  };
   drawRainLabels();
 }
 // Zoomed out: one reading per district. Zoomed in: each HKO weather station's own 15-minute reading.
@@ -712,7 +730,7 @@ function drawRainLabels() {
     el.className = `rain-label${r.mm >= 30 ? ' strong' : ''}${stations ? ' station' : ''}`;
     el.innerHTML = stations ? `<b>${r.mm}</b><small>${esc(L(r.name, r.nameZh))}</small>` : `${r.mm}`;
     const rm = new state.Adv({ map: state.map, position: r, content: el, zIndex: 2, title: `${stations ? L(r.name, r.nameZh) : L(r.district, r.districtZh)} ${r.mm} mm` });
-    rm.addListener('click', () => toast(`🌧️ ${stations ? L(r.name, r.nameZh) : L(r.district, r.districtZh)}: ${r.mm} mm · ${t('HK Observatory, past hour')}`));
+    rm.addListener('click', tapSafe(() => toast(`🌧️ ${stations ? L(r.name, r.nameZh) : L(r.district, r.districtZh)}: ${r.mm} mm · ${t('HK Observatory, past hour')}`)));
     state.rainLabels.push(rm);
   }
   state.rainLabelMode = stations ? 'stations' : 'districts';
@@ -787,7 +805,7 @@ function drawReports() {
       const el = document.createElement('div');
       el.className = 'flood-pin';
       const marker = new state.Adv({ map: state.map, position: r, content: el, title: L(r.ai?.description_en, r.ai?.description_zh) || t('Flood report') });
-      marker.addListener('click', () => openDetail(r.id));
+      marker.addListener('click', tapSafe(() => openDetail(r.id)));
       const circle = new google.maps.Circle({ map: state.map, center: r, clickable: false, strokeWeight: 1 });
       layer = { marker, circle, el };
       state.hazardLayers.set(r.id, layer);
@@ -1058,7 +1076,7 @@ function drawRouteBubbles(plan, sel) {
     el.type = 'button'; el.className = `route-bubble ${cls}`; el.innerHTML = html;
     wrap.innerHTML = `<i class="rb-dot ${cls}"></i>`; wrap.appendChild(el);
     const m = new state.Adv({ map: state.map, position: pos, content: wrap, zIndex: z });
-    if (onClick) { m.addListener('click', onClick); el.addEventListener('click', (e) => { e.stopPropagation(); onClick(); }); }
+    if (onClick) { const tap = tapSafe(onClick); m.addListener('click', tap); el.addEventListener('click', (e) => { e.stopPropagation(); tap(); }); }
     state.routeBubbles.push(m);
   };
   const shelter = (x) => (x.shelter ? ` <span class="rb-sh">☂${x.shelter.shelteredPct}%</span>` : '');
@@ -1095,7 +1113,7 @@ function drawRoute(plan, sel = 0, fit = true) {
   plan.options.forEach((o, i) => {
     if (i === sel || (state.showShortest && o === shortest)) return;
     const l = new google.maps.Polyline({ map: state.map, path: path(o.coords), strokeColor: '#7b8794', strokeOpacity: 0.85, strokeWeight: 6, zIndex: 2 });
-    l.addListener('click', () => selectOption(i, 'sel'));
+    l.addListener('click', tapSafe(() => selectOption(i, 'sel')));
     state.routeLines.push(l);
   });
   const o = plan.options[sel];
@@ -1516,7 +1534,7 @@ async function loadShelterLayer() {
       const cls = r.classes[f.getProperty('c')];
       return { clickable: Boolean(f.getProperty('name')), strokeColor: SHELTER[cls]?.c || '#1e88e5', strokeOpacity: 0.85, strokeWeight: weight, zIndex: 1 };
     });
-    data.addListener('click', (e) => { const n = e.feature.getProperty('name'); if (n) toast(`${SHELTER[r.classes[e.feature.getProperty('c')]]?.i || '☂️'} ${n}`); });
+    data.addListener('click', tapSafe((e) => { const n = e.feature.getProperty('name'); if (n) toast(`${SHELTER[r.classes[e.feature.getProperty('c')]]?.i || '☂️'} ${n}`); }));
   } catch (e) { toast(t('Sheltered walkways unavailable: {e}', { e: e.message })); }
 }
 function clearShelterLayer() { if (state.shelterData) { state.shelterData.setMap(null); state.shelterData = null; } }
@@ -1736,7 +1754,7 @@ function drawShelterPins(center, shelters) {
     const el = document.createElement('button'); el.type = 'button'; el.className = `sh-pin${s.floodedNearby ? ' flooded' : ''}`;
     el.innerHTML = `<span>${SHELTER_ICON[s.type] || '🏢'}</span><b>${i + 1}</b>`;
     const m = new state.Adv({ map: state.map, position: s, content: el, title: s.name, zIndex: 45 });
-    m.addListener?.('click', () => goToShelter(s));
+    m.addListener?.('click', tapSafe(() => goToShelter(s)));
     state.shelterPins.push(m);
     if (i < 6) b.extend(s);
   });
@@ -1816,7 +1834,18 @@ async function toggleDemo() {
     demoPref.set(on);
     setDemoUI(on);
     toast(t(on ? 'Demo on – only you see the simulated black rainstorm and sample reports' : 'Demo off – back to live data'), 4200);
-    await Promise.all([refreshReports(), refreshWeather()]);
+    // nothing simulated may survive the switch: drop what was built from the other mode, then reload it all
+    state.forecast = null; state.briefings = {};
+    if (!on && state.dsdAutoDone) { state.dsdAutoDone = false; if (state.dsdOn) setDsd(false); }   // only if demo's signal switched it on
+    await Promise.all([refreshReports(), refreshWeather()]);   // also reloads flood-prone spots and an open warnings panel
+    if (UMB.data) { try { UMB.ratings = (await api('/api/umbrellas/ratings')).ratings || {}; } catch {} if (UMB.on) drawUmbMarkers(); }
+    if (state.shelterAt) findShelter(true);
+    if (state.lastPlan && state.origin && state.dest) {
+      // the planned route was scored against the other mode's floods and rain: plan it again with the current data
+      clearRoute(); state.lastPlan = null;
+      await findRoute();
+      toast(t(on ? 'Route re-planned with the simulated rainstorm' : 'Route re-planned with live data'), 3200);
+    } else if (state.lastPlan) clearTrip();
     if (on && state.map) { state.map.setCenter({ lat: 22.322, lng: 114.18 }); state.map.setZoom(13); }
   } catch (e) { toast(e.message); }
 }
@@ -2366,7 +2395,7 @@ function drawUmbMarkers() {
     const el = document.createElement('div');
     el.className = `umb-pin${umbOpen(s) ? ' open' : ''}`; el.innerHTML = UMB_SVG;
     const m = new state.Adv({ map: state.map, position: s, content: el, title: `☂ ${umbName(s)}`, zIndex: 15 });
-    m.addListener('click', () => openUmbrella(s.id));
+    m.addListener('click', tapSafe(() => openUmbrella(s.id)));
     UMB.markers.push(m);
   }
 }

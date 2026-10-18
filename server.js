@@ -59,6 +59,13 @@ function parseDataUrl(dataUrl) {
 // else keeps seeing live data. The sandbox is one small document per visitor (photos are stored separately).
 const clientIdOf = (req) => String(req.get('x-client-id') || req.ip).slice(0, 64);
 const isDemoReq = (req) => req.get('x-demo') === '1';
+// Demo and live answers share the same URLs, so the browser must never reuse one for the other:
+// every API response varies on X-Demo, and a demo response is never stored at all.
+app.use('/api', (req, res, next) => {
+  res.vary('X-Demo');
+  if (isDemoReq(req)) { const set = res.set.bind(res); res.set = (k, v) => (typeof k === 'string' && k.toLowerCase() === 'cache-control' ? set(k, 'no-store') : set(k, v)); set('Cache-Control', 'no-store'); }
+  next();
+});
 const sandboxKey = (req) => (isDemoReq(req) ? 'sandbox_' + createHash('sha256').update(clientIdOf(req)).digest('hex').slice(0, 24) : null);
 const SANDBOX_MAX = 30;
 async function loadSandbox(req) {
